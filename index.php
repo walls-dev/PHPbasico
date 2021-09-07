@@ -74,7 +74,9 @@ echo "IDADE: ".$candidato['idade']."<br/>";
 echo "ESPEC: ".$candidato['parametros']['espec']."<br/>";
 echo "TOTAL DE VAGAS: ".$candidato['parametros']['totVagas']."<br/>";
 echo "TOTAL DE VAGAS RESERVADAS: ".$candidato['parametros']['totVagasRes']."<br/>";
-echo "OPÇÃO POR VAGA RESERVADA: ".$candidato['parametros']['oVR']."<br/>";
+
+echo "OPÇÃO POR VAGA RESERVADA: ".($candidato['parametros']['oVR'] = true) ? 'SIM':'NÃO';
+
 echo "SOLICITOU ISENÇÃO BX RENDA: ".$candidato['parametros']['isento']."<br/>";
 echo "SOLICITOU ISENÇÃO DOADOR MED: ".$candidato['parametros']['redome']."<br/>";
 echo "PAGOU TAXA DE INSCRIÇÃO: ".$candidato['parametros']['txInsc'];
