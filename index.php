@@ -99,8 +99,6 @@ echo "SITUAÇAO DO CANDIDATO ". $candidato['nome'] . " APÓS AS PROVAS ESCRITAS:
 
 //(CONDIÇÃO) ? RESULTADO POSITIVO : RESULTADO NEGATIVO;
 echo
-"<h1>OPERADOR TERNÁRIO</h1>";
-echo
 ($mediaFinal > 6.0) ? "CANDIDATO: "."APROVADO" : "CANDIDATO: "."REPROVADO";
 echo "<br/>";
 echo
