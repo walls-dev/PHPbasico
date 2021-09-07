@@ -80,7 +80,7 @@ echo "<br/>";
 echo "SOLICITOU ISENÇÃO BX RENDA: ";
 echo ($candidato['parametros']['isento'] == true) ? "SIM" : "NÃO";
 echo "<br/>";
-echo "SOLICITOU ISENÇÃO DOADOR MED: ";
+echo "SOLICITOU ISENÇÃO DOADOR MEDULA ÓSSEA: ";
 echo ($candidato['parametros']['redome'] == true) ? "SIM" : "NÃO";
 echo "<br/>";
 echo "PAGOU TAXA DE INSCRIÇÃO: ";
