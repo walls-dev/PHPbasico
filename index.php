@@ -35,12 +35,38 @@ $lista = [
 //echo "FORÇA: ".$lista['atributos']['forca']."<br/>";;
 //echo "VIDA: ".$lista['vida'];
 //print_r($lista);
+$candidato = [
+    'concurso' => 'CFS 2022',
+    'nome' => 'João',
+    'idade' => 20,
+    'cor' => 'Negro',
+    'parametros' => [
+        'espec' => 'BCT',
+        'totVagas' => 10,
+        'totVagasRes' => 3,
+        'oVR' => true,
+        'isento' => false,
+        'redome' => false,
+        'txInsc' => true,
+        'mat' => 7.0,
+        'port' => 7.8,
+        'ing' => 7.6,
+        'mediaFinal' => 7.6,
+        'classFinal' => 9
+    ]
+    ];
 
-$grauFinal = 7.6;
-$oVR = true;
+/*SITUAÇAO DO CANDIDATO APÓS AS PROVAS ESCRITAS:
 
-if ($grauFinal >= 6.0 AND $oVR = false OR true) {
-    echo "Aprovado";
+SITUAÇÃO: APROVADO OU REPROVADO
+MÉDIA EM PORT: MAT: ING:
+MÉDIA FINAL: 
+CLASSIFICAÇÃO: 
+VAGAS RESERVADAS: SIM OU NÃO
+CONVOCAÇÃO: CONVOCADO OU NÃO CONVOCADO PARA A CINT*/
+echo "SITUAÇAO DO CANDIDATO APÓS AS PROVAS ESCRITAS:"."<br/>";
+if ($mediaFinal >= 6.0) {
+    echo "SITUAÇÃO: "."Aprovado";
 }else{
-    echo "Reprovado";
+    echo "SITUAÇÃO: "."Aprovado";
 }
