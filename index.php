@@ -67,9 +67,11 @@ VAGAS RESERVADAS: SIM OU NÃO
 CONVOCAÇÃO: CONVOCADO OU NÃO CONVOCADO PARA A CINT*/
 
 
-echo "SITUAÇAO DO CANDIDATO".$candidato['nome']. "APÓS AS PROVAS ESCRITAS:"."<br/>";
+echo "SITUAÇAO DO CANDIDATO ". $candidato['nome'] . " APÓS AS PROVAS ESCRITAS:"."<br/>";
 if ($mediaFinal >= 6.0) {
-    echo "SITUAÇÃO: "."Aprovado";
+    echo "SITUAÇÃO: "."Aprovado" ."<br/>";
+    echo "MÉDIA FINAL: ".$mediaFinal;
 }else{
-    echo "SITUAÇÃO: "."Reprovado";
+    echo "SITUAÇÃO: "."Reprovado" ."<br/>";
+    echo "MÉDIA FINAL: ".$mediaFinal;
 }
