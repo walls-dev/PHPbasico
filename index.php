@@ -48,9 +48,9 @@ $candidato = [
         'isento' => false,
         'redome' => false,
         'txInsc' => true,
-        'mat' => 5.0,
+        'mat' => 6.0,
         'por' => 5.8,
-        'ing' => 6.6,
+        'ing' => 6.2,
     ],
         
     ];
