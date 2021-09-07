@@ -41,4 +41,6 @@ $oVR = true;
 
 if $grauFinal >= 6.0{
     echo "Aprovado";
+}else{
+    echo "Reprovado";
 }
