@@ -34,4 +34,4 @@ $lista = [
 //echo "NOME: ".$lista['nome']."<br/>";
 //echo "FORÇA: ".$lista['atributos']['forca']."<br/>";;
 //echo "VIDA: ".$lista['vida'];
-print_r($lista);
+//print_r($lista);
