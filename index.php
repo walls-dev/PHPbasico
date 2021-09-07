@@ -35,3 +35,10 @@ $lista = [
 //echo "FORÇA: ".$lista['atributos']['forca']."<br/>";;
 //echo "VIDA: ".$lista['vida'];
 //print_r($lista);
+
+$grauFinal = 7.6;
+$oVR = true;
+
+if $grauFinal >= 6.0{
+    echo "Aprovado";
+}
