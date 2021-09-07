@@ -49,9 +49,9 @@ $candidato = [
         'isento' => false,
         'redome' => false,
         'txInsc' => true,
-        'mat' => 3.0,
-        'por' => 3.8,
-        'ing' => 2.2,
+        'mat' => 6.0,
+        'por' => 6.0,
+        'ing' => 6.0,
     ],
     ];
 $mediaFinal = ($candidato['parametros']['mat'] +
@@ -106,7 +106,7 @@ echo "SITUAÇAO DO CANDIDATO ". $candidato['nome'] . " APÓS AS PROVAS ESCRITAS:
 
 //(CONDIÇÃO) ? RESULTADO POSITIVO : RESULTADO NEGATIVO;
 echo
-($mediaFinal > 6.0) ? "CANDIDATO: "."APROVADO" : "CANDIDATO: "."REPROVADO";
+($mediaFinal >= 6.0) ? "CANDIDATO: "."APROVADO" : "CANDIDATO: "."REPROVADO";
 echo "<br/>";
 echo
 "MÉDIA FINAL: ".$mediaFinal;
