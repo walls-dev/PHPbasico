@@ -75,7 +75,7 @@ echo "ESPEC: ".$candidato['parametros']['espec']."<br/>";
 echo "TOTAL DE VAGAS: ".$candidato['parametros']['totVagas']."<br/>";
 echo "TOTAL DE VAGAS RESERVADAS: ".$candidato['parametros']['totVagasRes']."<br/>";
 
-echo "OPTOU POR VAGA RESERVADA: ".($candidato['parametros']['oVR'] = true) ? "SIM":"NÃO";
+echo "OPTOU POR VAGA RESERVADA: " .($candidato['parametros']['oVR'] = true) ? "SIM":"NÃO";
 echo "<br/>";
 
 echo "SOLICITOU ISENÇÃO BX RENDA: ".$candidato['parametros']['isento']."<br/>";
