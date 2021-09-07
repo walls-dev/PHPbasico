@@ -94,5 +94,5 @@ echo
 echo "<hr>";
 
 $nomeCompleto = $candidato['nome'];
-$nomeCompleto .= isset($candidato['sobrenome']) ? $candidato['sobrenome'] : '';
+$nomeCompleto .= isset($candidato['sobrenome']) ? ' '.$candidato['sobrenome'] : '';
 echo $nomeCompleto;
