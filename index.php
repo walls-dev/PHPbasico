@@ -21,7 +21,7 @@ echo $lorem3[0];*/
 
 $lista = [
     'nome' => 'Walls',
-    'idade' = 36,
+    'idade' => 36,
     'atributos' => [
         'forca' => 60,
         'agilidade' => 80,
