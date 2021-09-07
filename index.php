@@ -74,10 +74,14 @@ if ($candidato['idade'] < 24){
 }
 echo "<hr/>";
 echo "SITUAÇAO DO CANDIDATO ". $candidato['nome'] . " APÓS AS PROVAS ESCRITAS:"."<br/>";
-if ($mediaFinal < 6.0) {
+/*if ($mediaFinal < 6.0) {
     echo "SITUAÇÃO: "."Reprovado" ."<br/>";
     echo "MÉDIA FINAL: ".$mediaFinal;
 }else{
     echo "SITUAÇÃO: "."Aprovado" ."<br/>";
     echo "MÉDIA FINAL: ".$mediaFinal;
-}
+}*/
+//OPERADOR TERNÁRIO
+//(CONDIÇÃO) ? RESULTADO POSITIVO : RESULTADO NEGATIVO;
+echo
+($mediaFinal > 6.0) ? "CANDIDATO: "."APROVADO" : "CANDIDATO: "."REPROVADO";
