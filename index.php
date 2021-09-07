@@ -13,5 +13,5 @@ $lorem2 = [
 ];
 
 
-echo $lorem[1];
+echo $lorem[2];
 
