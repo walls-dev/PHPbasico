@@ -27,8 +27,8 @@ $lista = [
         'agilidade' => 80,
         'destreza' => 50
     ],
-    vida = 1000
-    mana = 928
+    'vida' => 1000,
+    'mana' => 928
 ];
 
 echo "NOME: ".$lista['nome']."<br/>";
