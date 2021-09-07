@@ -53,7 +53,6 @@ $candidato = [
         'por' => 3.8,
         'ing' => 2.2,
     ],
-        
     ];
 $mediaFinal = ($candidato['parametros']['mat'] +
               $candidato['parametros']['por'] +
@@ -81,7 +80,9 @@ echo "<br/>";
 echo "SOLICITOU ISENÇÃO BX RENDA: ";
 echo ($candidato['parametros']['isento'] == true) ? "SIM" : "NÃO";
 echo "<br/>";
-echo "SOLICITOU ISENÇÃO DOADOR MED: ".$candidato['parametros']['redome']."<br/>";
+echo "SOLICITOU ISENÇÃO DOADOR MED: ";
+echo ($candidato['parametros']['redome']== true) ? "SIM" : "NÃO";
+echo "<br/>";
 echo "PAGOU TAXA DE INSCRIÇÃO: ".$candidato['parametros']['txInsc'];
 echo "<br/>";
 echo "<hr>";
