@@ -97,3 +97,16 @@ $nomeCompleto = $candidato['nome'];
 //$nomeCompleto .= isset($candidato['sobrenome']) ? ' '.$candidato['sobrenome'] : '';
 $nomeCompleto .= ' '.$candidato['sobrenome'] ?? '';
 echo "NOME COMPLETO: ".$nomeCompleto;
+echo "<br/>";
+echo "<hr>";
+$tipo = 'video';
+
+if ($tipo == 'foto'){
+    echo 'Exibindo uma foto';
+}
+if ($tipo == 'video'){
+    echo 'Exibindo um vídeo';
+}
+if ($tipo == 'texto'){
+    echo 'Exibindo um texto';
+}
