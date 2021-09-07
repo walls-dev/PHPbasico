@@ -148,6 +148,6 @@ while ($numero <= 10){
     echo "N: ". $numero."<br/>";
     $numero += 1;
 }*/
-for ($numero = 0; $numero <=10; $numero +=1){
-    echo $numero."<br/>";
+for ($numero = 0; $numero <=6; $numero +=1){
+    echo $numero;
 }
