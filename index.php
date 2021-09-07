@@ -51,9 +51,9 @@ $candidato = [
         'mat' => 7.0,
         'port' => 7.8,
         'ing' => 7.6,
-        'mediaFinal' => 7.6,
+    ],
+        'mediaFinal' => ('parametros'['mat']+['port']+['ing'])/3,
         'classFinal' => 9
-    ]
     ];
 
 /*SITUAÇAO DO CANDIDATO APÓS AS PROVAS ESCRITAS:
@@ -64,9 +64,9 @@ MÉDIA FINAL:
 CLASSIFICAÇÃO: 
 VAGAS RESERVADAS: SIM OU NÃO
 CONVOCAÇÃO: CONVOCADO OU NÃO CONVOCADO PARA A CINT*/
-echo "SITUAÇAO DO CANDIDATO APÓS AS PROVAS ESCRITAS:"."<br/>";
-if ($candidato['parametros']['mediaFinal'] >= 6.0) {
+echo "SITUAÇAO DO CANDIDATO".$candidato['nome']. "APÓS AS PROVAS ESCRITAS:"."<br/>";
+if ($candidato['mediaFinal'] >= 6.0) {
     echo "SITUAÇÃO: "."Aprovado";
 }else{
-    echo "SITUAÇÃO: "."Aprovado";
+    echo "SITUAÇÃO: "."Reprovado";
 }
