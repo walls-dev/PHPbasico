@@ -17,4 +17,4 @@ $lorem3 = [...$lorem1, ...$lorem2];
 echo $lorem1[0]." ".$lorem1[1]."<br/>";
 echo $lorem1[0]." ".$lorem1[1]." ".$lorem1[2]."<br/>";
 echo $lorem3[0];*/
-print_r($lista3);
+print_r($lorem3);
