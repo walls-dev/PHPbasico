@@ -91,3 +91,7 @@ echo "<br/>";
 echo
 "MÉDIA FINAL: ".$mediaFinal;
 echo "<hr>";
+
+$nomeCompleto = $candidato['nome'];
+$nomeCompleto .= isset($sobrenome) ? $sobrenome : '';
+echo $nomeCompleto;
