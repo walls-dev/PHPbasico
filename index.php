@@ -68,15 +68,15 @@ VAGAS RESERVADAS: SIM OU NÃO
 CONVOCAÇÃO: CONVOCADO OU NÃO CONVOCADO PARA A CINT*/
 echo "DADOS DO CANDIDATO: "."<br/>";
 
-echo $candidato['nome'];
-echo $candidato['concurso'];
-echo $candidato['idade'];
-echo $candidato['parametros']['espec'];
-echo $candidato['parametros']['totVagas'];
-echo $candidato['parametros']['totVagasRes'];
-echo $candidato['parametros']['oVR'];
-echo $candidato['parametros']['isento'];
-echo $candidato['parametros']['redome'];
+echo $candidato['nome']."<br/>";
+echo $candidato['concurso']."<br/>";
+echo $candidato['idade']."<br/>";
+echo $candidato['parametros']['espec']."<br/>";
+echo $candidato['parametros']['totVagas']."<br/>";
+echo $candidato['parametros']['totVagasRes']."<br/>";
+echo $candidato['parametros']['oVR']."<br/>";
+echo $candidato['parametros']['isento']."<br/>";
+echo $candidato['parametros']['redome']."<br/>";
 echo $candidato['parametros']['txInsc'];
 echo "<br/>";
 echo "<hr>";
