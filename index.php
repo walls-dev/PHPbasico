@@ -90,3 +90,5 @@ echo
 echo "<br/>";
 echo
 "MÉDIA FINAL: ".$mediaFinal;
+echo
+"<a href='versao_php.php'>'versão PHP'</a>";
