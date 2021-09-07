@@ -49,7 +49,7 @@ $candidato = [
         'redome' => false,
         'txInsc' => true,
         'mat' => 7.0,
-        'port' => 7.8,
+        'por' => 7.8,
         'ing' => 7.6,
     ],
         
