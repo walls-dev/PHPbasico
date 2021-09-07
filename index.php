@@ -141,3 +141,10 @@ switch($tipo){
         echo 'Exibindo Texto';
         break;
 }
+echo "<br/>";
+echo "<hr>";
+$numero = 0;
+while ($numero < 10){
+    echo "N: ". $numero;
+    $numero += 1;
+}
