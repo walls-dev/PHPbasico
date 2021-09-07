@@ -31,6 +31,6 @@ $lista = [
     'mana' => 928
 ];
 
-echo "NOME: ".$lista['nome']."<br/>";
+echo "NOME: ".$lista['0']."<br/>";
 echo "FORÇA: ".$lista['atributos']['forca']."<br/>";;
 echo "VIDA: ".$lista['vida'];
