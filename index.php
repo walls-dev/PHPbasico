@@ -73,7 +73,7 @@ if ($candidato['idade'] >= 25){
     echo "CANDIDATO DENTRO DOS LIMITES DE IDADE, CONFORME AS I.E";
 
 }
-ECHO "<hr/>"
+echo "<hr/>";
 echo "SITUAÇAO DO CANDIDATO ". $candidato['nome'] . " APÓS AS PROVAS ESCRITAS:"."<br/>";
 if ($mediaFinal >= 6.0) {
     echo "SITUAÇÃO: "."Aprovado" ."<br/>";
