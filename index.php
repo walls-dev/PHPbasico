@@ -48,9 +48,9 @@ $candidato = [
         'isento' => false,
         'redome' => false,
         'txInsc' => true,
-        'mat' => 6.0,
-        'por' => 6.8,
-        'ing' => 6.2,
+        'mat' => 3.0,
+        'por' => 3.8,
+        'ing' => 2.2,
     ],
         
     ];
@@ -87,3 +87,6 @@ echo
 "<h1>OPERADOR TERNÁRIO</h1>";
 echo
 ($mediaFinal > 6.0) ? "CANDIDATO: "."APROVADO" : "CANDIDATO: "."REPROVADO";
+echo "<br/>";
+echo
+$mediaFinal;
