@@ -66,6 +66,20 @@ MÉDIA FINAL:
 CLASSIFICAÇÃO: 
 VAGAS RESERVADAS: SIM OU NÃO
 CONVOCAÇÃO: CONVOCADO OU NÃO CONVOCADO PARA A CINT*/
+echo "DADOS DO CANDIDATO: "."<br/>";
+
+echo $candidato['nome'];
+echo $candidato['concurso'];
+echo $candidato['idade'];
+echo $candidato['parametros']['espec'];
+echo $candidato['parametros']['totVagas'];
+echo $candidato['parametros']['totVagasRes'];
+echo $candidato['parametros']['oVR'];
+echo $candidato['parametros']['isento'];
+echo $candidato['parametros']['redome'];
+echo $candidato['parametros']['txInsc'];
+echo "<br/>";
+echo "<hr>";
 echo "SITUAÇAO DO CANDIDATO ". $candidato['nome'] . " DURANTE AS INSCRIÇÕES:"."<br/>";
 if ($candidato['idade'] < 24){
     echo "CANDIDATO DENTRO DOS LIMITES DE IDADE, CONFORME AS I.E";
