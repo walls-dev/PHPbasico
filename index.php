@@ -99,7 +99,7 @@ $nomeCompleto .= ' '.$candidato['sobrenome'] ?? '';
 echo "NOME COMPLETO: ".$nomeCompleto;
 echo "<br/>";
 echo "<hr>";
-$tipo = 'video';
+$tipo = 'foto';
 
 if ($tipo == 'foto'){
     echo 'Exibindo uma foto';
