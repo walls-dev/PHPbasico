@@ -65,8 +65,15 @@ MÉDIA FINAL:
 CLASSIFICAÇÃO: 
 VAGAS RESERVADAS: SIM OU NÃO
 CONVOCAÇÃO: CONVOCADO OU NÃO CONVOCADO PARA A CINT*/
+echo "SITUAÇAO DO CANDIDATO ". $candidato['nome'] . " DURANTE AS INSCRIÇÕES:"."<br/>";
+if ($candidato['idade'] >= 25){
+    echo "ATENTE PARA O ITEM 8.1 DAS I.E - HABILITAÇÃO À MATRÍCULA"."<br/>";
+    echo "No ato da matrícula, você estará acima da idade exigida";
+}else {
+    echo "CANDIDATO DENTRO DOS LIMITES DE IDADE, CONFORME AS I.E";
 
-
+}
+ECHO "<hr/>"
 echo "SITUAÇAO DO CANDIDATO ". $candidato['nome'] . " APÓS AS PROVAS ESCRITAS:"."<br/>";
 if ($mediaFinal >= 6.0) {
     echo "SITUAÇÃO: "."Aprovado" ."<br/>";
