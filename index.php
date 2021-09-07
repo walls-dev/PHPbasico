@@ -101,7 +101,7 @@ echo "<br/>";
 echo "<hr>";
 $tipo = 'foto';
 
-if ($tipo == 'foto'){
+/*if ($tipo == 'foto'){
     echo 'Exibindo uma foto';
 }
 if ($tipo == 'video'){
@@ -109,4 +109,16 @@ if ($tipo == 'video'){
 }
 if ($tipo == 'texto'){
     echo 'Exibindo um texto';
+}*/
+
+swith($tipo){
+    case 'foto':
+        echo FOTO;
+        break;
+    case 'video':
+        echo 'VIDEO';
+        break;
+    case 'texto':
+        echo 'TEXTO';
+        break;
 }
