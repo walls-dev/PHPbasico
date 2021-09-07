@@ -38,6 +38,7 @@ $lista = [
 $candidato = [
     'concurso' => 'CFS 2022',
     'nome' => 'JOÃO',
+    'sobrenome' => 'GOMES',
     'idade' => 23,
     'cor' => 'Negro',
     'parametros' => [
