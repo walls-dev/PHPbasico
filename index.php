@@ -17,4 +17,20 @@ $lorem3 = [...$lorem1, ...$lorem2];
 echo $lorem1[0]." ".$lorem1[1]."<br/>";
 echo $lorem1[0]." ".$lorem1[1]." ".$lorem1[2]."<br/>";
 echo $lorem3[0];*/
-print_r($lorem3);
+//print_r($lorem3);
+
+$lista = [
+    'nome' => 'Walls',
+    'idade' = 36,
+    'atributos' => [
+        'forca' => 60,
+        'agilidade' => 80,
+        'destreza' = 50
+    ],
+    vida = 1000
+    mana = 928
+];
+
+echo "NOME: ".$lista['nome']."<br/>";
+echo "FORÇA: ".$lista['atributos']['forca']."<br/>";;
+echo "VIDA: ".$lista['vida'];
