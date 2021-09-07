@@ -52,8 +52,7 @@ $candidato = [
         'port' => 7.8,
         'ing' => 7.6,
     ],
-        'mediaFinal' => ('parametros'['mat']+['port']+['ing'])/3,
-        'classFinal' => 9
+        
     ];
 
 /*SITUAÇAO DO CANDIDATO APÓS AS PROVAS ESCRITAS:
