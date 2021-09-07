@@ -39,7 +39,7 @@ $lista = [
 $grauFinal = 7.6;
 $oVR = true;
 
-if ($grauFinal >= 6.0 AND $oVR = false) {
+if ($grauFinal >= 6.0 AND $oVR = false OR true) {
     echo "Aprovado";
 }else{
     echo "Reprovado";
