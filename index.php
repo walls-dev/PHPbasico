@@ -13,6 +13,6 @@ $lorem2 = [
 ];
 
 
-echo $lorem2[6]."<br/>";
+echo $lorem2[5]."<br/>";
 echo $lorem1[0]." ".$lorem1[1]."<br/>";
 echo $lorem1[0]." ".$lorem1[1]." ".$lorem1[2]."<br/>";
