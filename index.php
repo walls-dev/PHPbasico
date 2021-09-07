@@ -111,14 +111,14 @@ if ($tipo == 'texto'){
     echo 'Exibindo um texto';
 }*/
 
-swith($tipo){
+switch($tipo){
     case 'foto':
-        echo FOTO;
+        echo 'Exibindo Foto';
         break;
     case 'video':
-        echo 'VIDEO';
+        echo 'Exibindo Vídeo';
         break;
     case 'texto':
-        echo 'TEXTO';
+        echo 'Exibindo Texto';
         break;
 }
