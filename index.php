@@ -48,7 +48,7 @@ $candidato = [
         'oVR' => true,
         'isento' => false,
         'redome' => false,
-        'txInsc' => false,
+        'txInsc' => true,
         'mat' => 3.0,
         'por' => 3.8,
         'ing' => 2.2,
@@ -81,9 +81,10 @@ echo "SOLICITOU ISENÇÃO BX RENDA: ";
 echo ($candidato['parametros']['isento'] == true) ? "SIM" : "NÃO";
 echo "<br/>";
 echo "SOLICITOU ISENÇÃO DOADOR MED: ";
-echo ($candidato['parametros']['redome']== true) ? "SIM" : "NÃO";
+echo ($candidato['parametros']['redome'] == true) ? "SIM" : "NÃO";
 echo "<br/>";
-echo "PAGOU TAXA DE INSCRIÇÃO: ".$candidato['parametros']['txInsc'];
+echo "PAGOU TAXA DE INSCRIÇÃO: ";
+echo ($candidato['parametros']['txInsc'] == true) ? "SIM" : "NÃO";
 echo "<br/>";
 echo "<hr>";
 echo "SITUAÇAO DO CANDIDATO ". $candidato['nome'] . " DURANTE AS INSCRIÇÕES:"."<br/>";
