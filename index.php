@@ -68,16 +68,16 @@ VAGAS RESERVADAS: SIM OU NÃO
 CONVOCAÇÃO: CONVOCADO OU NÃO CONVOCADO PARA A CINT*/
 echo "DADOS DO CANDIDATO: "."<br/>";
 
-echo $candidato['nome']."<br/>";
-echo $candidato['concurso']."<br/>";
-echo $candidato['idade']."<br/>";
-echo $candidato['parametros']['espec']."<br/>";
-echo $candidato['parametros']['totVagas']."<br/>";
-echo $candidato['parametros']['totVagasRes']."<br/>";
-echo $candidato['parametros']['oVR']."<br/>";
-echo $candidato['parametros']['isento']."<br/>";
-echo $candidato['parametros']['redome']."<br/>";
-echo $candidato['parametros']['txInsc'];
+echo "NOME: ".$candidato['nome']."<br/>";
+echo "EXAME: ".$candidato['concurso']."<br/>";
+echo "IDADE: ".$candidato['idade']."<br/>";
+echo "ESPEC: ".$candidato['parametros']['espec']."<br/>";
+echo "TOTAL DE VAGAS: ".$candidato['parametros']['totVagas']."<br/>";
+echo "TOTAL DE VAGAS RESERVADAS: ".$candidato['parametros']['totVagasRes']."<br/>";
+echo "OPÇÃO POR VAGA RESERVADA: ".$candidato['parametros']['oVR']."<br/>";
+echo "SOLICITOU ISENÇÃO BX RENDA: ".$candidato['parametros']['isento']."<br/>";
+echo "SOLICITOU ISENÇÃO DOADOR MED: ".$candidato['parametros']['redome']."<br/>";
+echo "PAGOU TAXA DE INSCRIÇÃO: ".$candidato['parametros']['txInsc'];
 echo "<br/>";
 echo "<hr>";
 echo "SITUAÇAO DO CANDIDATO ". $candidato['nome'] . " DURANTE AS INSCRIÇÕES:"."<br/>";
