@@ -37,7 +37,7 @@ $lista = [
 //print_r($lista);
 $candidato = [
     'concurso' => 'CFS 2022',
-    'nome' => 'João',
+    'nome' => 'JOÃO',
     'idade' => 23,
     'cor' => 'Negro',
     'parametros' => [
@@ -90,3 +90,4 @@ echo
 echo "<br/>";
 echo
 "MÉDIA FINAL: ".$mediaFinal;
+echo "<hr>";
