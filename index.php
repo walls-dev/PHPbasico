@@ -89,4 +89,4 @@ echo
 ($mediaFinal > 6.0) ? "CANDIDATO: "."APROVADO" : "CANDIDATO: "."REPROVADO";
 echo "<br/>";
 echo
-$mediaFinal;
+"MÉDIA FINAL: ".$mediaFinal;
