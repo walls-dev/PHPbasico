@@ -166,12 +166,12 @@ foreach($ingredientes as $chave => $valor){
 echo "<br/>";
 echo "<hr>";
 
-for ($c = 1; $c <= 10; $c++){
+while ($c <= 10){
 for ($i = 1; $i <= 10; $i++){
     $linha = "-";
 }
     echo $linha;
-    $coluna = "-";
-    echo $coluna."<br/>";
+    $c = "-";
+    echo $c."<br/>";
 }
  
