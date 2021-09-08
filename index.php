@@ -163,3 +163,8 @@ $ingredientes = [
 foreach($ingredientes as $chave => $valor){
     echo "Item ".($chave + 1).": ".$valor."<br/>";
 }
+echo "<br/>";
+echo "<hr>";
+for ($i = '1'; $i <= 10; $i++){
+    echo $i."<br/>";
+}
