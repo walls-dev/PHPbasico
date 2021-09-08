@@ -171,7 +171,9 @@ for ($i = 1; $i <= 10; $i++){
     $linha = "-";
 }
     echo $linha;
-    $c = "-";
-    echo $c."<br/>";
+    $coluna = $c;
+    $c = $linha;
+    echo $c;
+    
 }
  
