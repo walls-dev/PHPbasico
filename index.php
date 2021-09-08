@@ -151,6 +151,8 @@ while ($numero <= 10){
 for ($i = 1; $i <=6; $i ++){
     echo $i;
 }
+echo "<br/>";
+echo "<hr>";
 $ingredientes = [
     'açucar',
     'farinha de trigo',
