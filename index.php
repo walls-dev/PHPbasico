@@ -161,5 +161,5 @@ $ingredientes = [
     'fermento em pó'
 ];
 foreach($ingredientes as $chave => $valor){
-    echo "Item: ".$valor."<br/>";
+    echo "Item ".$chave." :".$valor."<br/>";
 }
