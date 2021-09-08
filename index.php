@@ -168,9 +168,9 @@ echo "<hr>";
 $c = 1;
 while ($c <= 10){
 for ($i = 1; $i <= 10; $i++){
-    $linha = "-"."<br/>";
+    $linha = "-";
 }
     $c+=1;
-    echo $linha;
+    echo $linha."<br/>";
 }
  
