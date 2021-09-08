@@ -166,8 +166,10 @@ foreach($ingredientes as $chave => $valor){
 echo "<br/>";
 echo "<hr>";
 
- 
+for ($c = 1; $c <= 10; $c++){
 for ($i = 1; $i <= 10; $i++){
     $linha = "-";
+}
+    echo $linha;
 }
  
