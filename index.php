@@ -168,6 +168,6 @@ echo "<hr>";
 
 echo "<ul>";
 for ($i = 1; $i <= 10; $i++){
-    echo "<li>"."-"."</li>";
+    echo "<ul><li>"."-"."</li></ul>";
 }
  echo "</ul>";  
