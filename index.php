@@ -167,7 +167,7 @@ echo "<br/>";
 echo "<hr>";
 
 
-for ($i = 1; $i <= 10; $i++){
+for ($i = 1; $i <= 10; $i =$i){
     echo $i."<br/>";
 }
  
