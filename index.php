@@ -160,6 +160,6 @@ $ingredientes = [
     'leite',
     'fermento em pó'
 ];
-foreach($ingredientes as $ingrediente){
-    echo "Item: ".$ingrediente."<br/>";
+foreach($ingredientes as $valor){
+    echo "Valor: ".$valor."<br/>";
 }
