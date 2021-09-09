@@ -170,13 +170,10 @@ $c = 1;
 while ($c <= 10){
 for ($i = 1; $i <= 30; $i++){
     echo $linha = "-";
-}
+        }
     $c+=1;
     echo $linha."<br/>";
 }
 
- function latir(){
-     echo "au au";
- }
- latir();
+ 
  
