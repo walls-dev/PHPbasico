@@ -173,9 +173,17 @@ for ($i = 1; $i <= 30; $i++){
     $c+=1;
     echo $linha."<br/>";
 }
-function somar(){
-   ($candidato['parametros']['mat']+
-    $candidato['parametros']['por']+
-    $candidato['parametros']['ing'])/3
+/* function somar(){}
+    $mediaFinal = ( $candidato['parametros']['mat'] +
+                    $candidato['parametros']['por'] +
+                    $candidato['parametros']['ing']  )
+                    /
+                    3;
+    echo $mediaFinal;
 }
- somar();
+ somar();*/
+
+ function latir(){
+     echo "au au";
+ }
+ latir();
