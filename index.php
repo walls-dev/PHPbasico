@@ -54,15 +54,7 @@ $candidato = [
         'ing' => 6.0,
     ],
     ];
-    function mediaFinal(){
-    $mediaFinal = ( ['parametros']['mat'] +
-                    ['parametros']['por'] +
-                    ['parametros']['ing']  )
-                    /
-                    3;
-    echo $mediaFinal;
-}
- mediaFinal();
+    
 $mediaFinal = ($candidato['parametros']['mat'] +
               $candidato['parametros']['por'] +
               $candidato['parametros']['ing'])/3;
@@ -187,4 +179,4 @@ for ($i = 1; $i <= 30; $i++){
      echo "au au";
  }
  latir();
- mediaFinal();
+ 
