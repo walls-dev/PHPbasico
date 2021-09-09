@@ -173,4 +173,9 @@ for ($i = 1; $i <= 30; $i++){
     $c+=1;
     echo $linha."<br/>";
 }
- 
+function somar(){
+   ($candidato['parametros']['mat']+
+    $candidato['parametros']['por']+
+    $candidato['parametros']['ing'])/3
+}
+ somar();
