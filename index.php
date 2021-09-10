@@ -181,6 +181,7 @@ function subsequente(){
     }
     echo "<hr>";
 }
+subsequente();
 
  
  
