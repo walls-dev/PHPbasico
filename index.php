@@ -58,6 +58,7 @@ $candidato = [
 $mediaFinal = ($candidato['parametros']['mat'] +
               $candidato['parametros']['por'] +
               $candidato['parametros']['ing'])/3;
+
 /*SITUAÇAO DO CANDIDATO APÓS AS PROVAS ESCRITAS:
 
 SITUAÇÃO: APROVADO OU REPROVADO
