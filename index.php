@@ -194,7 +194,6 @@ function dividir($numero){
         dividir($metade);
     }
 }
-
 dividir(100);
 
 
