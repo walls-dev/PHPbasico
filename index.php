@@ -195,7 +195,7 @@ function dividir($numero){
     }
 }
 
-$dividir(100);
+dividir(100);
 
 
 
