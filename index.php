@@ -54,7 +54,16 @@ $candidato = [
         'ing' => 6.0,
     ],
     ];
+function mediafinal($candidato['parametros']['mat']
+                    $candidato['parametros']['por']
+                    $candidato['parametros']['ing']){
+                        $res = ($candidato['parametros']['mat'] +
+                        $candidato['parametros']['por'] +
+                        $candidato['parametros']['ing'])/3;
+                    return $res;
+}
     
+
 $mediaFinal = ($candidato['parametros']['mat'] +
               $candidato['parametros']['por'] +
               $candidato['parametros']['ing'])/3;
@@ -185,6 +194,8 @@ function subsequente(){
 for($n=1; $n <=3; $n++){
     subsequente();
 }
+
+mediafinal();
 
 
  
