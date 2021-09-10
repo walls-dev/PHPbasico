@@ -55,7 +55,7 @@ $candidato = [
     ],
     ];
     print_r($candidato);
-function mediafinal($candidato['parametros']['mat'],
+/*function mediafinal($candidato['parametros']['mat'],
 $candidato['parametros']['por'],
 $candidato['parametros']['ing']){
     $res = ($candidato['parametros']['mat'] +
@@ -65,7 +65,7 @@ $candidato['parametros']['ing']){
 }
 $mf = mediafinal($candidato['parametros']['mat'],
 $candidato['parametros']['por'],
-$candidato['parametros']['ing']);
+$candidato['parametros']['ing']);*/
     
 
 $mediaFinal = ($candidato['parametros']['mat'] +
