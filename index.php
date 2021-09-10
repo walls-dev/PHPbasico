@@ -55,11 +55,10 @@ $candidato = [
     ],
     ];
 function mediafinal($candidato['parametros']['mat'],
-                    $candidato['parametros']['por'],
-                    $candidato['parametros']['ing']){
+                    $candidato['parametros']['por']){
                         $res = ($candidato['parametros']['mat'] +
-                        $candidato['parametros']['por'] +
-                        $candidato['parametros']['ing'])/3;
+                        $candidato['parametros']['por'])
+                        /2;
                     return $res;
 }
     
