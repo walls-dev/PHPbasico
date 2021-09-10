@@ -176,7 +176,7 @@ for ($i = 1; $i <= 30; $i++){
 }
 
 function subsequente(){
-    for($q = 0; $q <10; $q++){
+    for($q = 1; $q <=10; $q++){
         echo $q."<br/>";
     }
     echo "<hr>";
