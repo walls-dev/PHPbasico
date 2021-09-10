@@ -192,7 +192,8 @@ for($n=1; $n <=3; $n++){
     subsequente();
 }
 
-mediafinal(6, 8);
+$calc = mediafinal(6, 8);
+echo $calc;
 
 
  
