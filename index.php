@@ -175,5 +175,12 @@ for ($i = 1; $i <= 30; $i++){
     echo $linha."<br/>";
 }
 
+function subsequente(){
+    for($q = 0; $q <10; $q++){
+        echo $q."<br/>";
+    }
+    echo "<hr>";
+}
+
  
  
