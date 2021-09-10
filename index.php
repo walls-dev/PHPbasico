@@ -54,6 +54,7 @@ $candidato = [
         'ing' => 2.0,
     ],
     ];
+    print_r($candidato);
 function mediafinal($candidato['parametros']['mat'],
 $candidato['parametros']['por'],
 $candidato['parametros']['ing']){
@@ -198,7 +199,7 @@ for($n=1; $n <=3; $n++){
     subsequente();
 }
 
-echo $mf;
+
 
 
  
