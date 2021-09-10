@@ -49,16 +49,22 @@ $candidato = [
         'isento' => false,
         'redome' => false,
         'txInsc' => true,
-        'mat' => 6.0,
-        'por' => 6.0,
-        'ing' => 6.0,
+        'mat' => 2.0,
+        'por' => 2.0,
+        'ing' => 2.0,
     ],
     ];
-function mediafinal($tes, $tes2){
-    $res = ($tes + $tes2)/2;
+function mediafinal($candidato['parametros']['mat'],
+$candidato['parametros']['por'],
+$candidato['parametros']['ing']){
+    $res = ($candidato['parametros']['mat'] +
+    $candidato['parametros']['por'] +
+    $candidato['parametros']['ing'])/3;
     return $res;
 }
-
+$mf = mediafinal($candidato['parametros']['mat'],
+$candidato['parametros']['por'],
+$candidato['parametros']['ing']);
     
 
 $mediaFinal = ($candidato['parametros']['mat'] +
@@ -192,8 +198,7 @@ for($n=1; $n <=3; $n++){
     subsequente();
 }
 
-$calc = mediafinal(6, 8);
-echo $calc;
+echo $mf;
 
 
  
