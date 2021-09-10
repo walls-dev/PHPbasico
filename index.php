@@ -181,7 +181,11 @@ function subsequente(){
     }
     echo "<hr>";
 }
-subsequente();
+
+for($n=1; $n <=3; $n++){
+    subsequente();
+}
+
 
  
  
