@@ -54,7 +54,7 @@ $candidato = [
         'ing' => 2.0,
     ],
     ];
-    foreach($candidato as $chave => $valor){
+    foreach($parametros as $chave => $valor){
         echo "Candidato: ".$chave.": ".$valor."<br/>";
     }
 /*function mediafinal($candidato['parametros']['mat'],
