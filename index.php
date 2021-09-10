@@ -192,7 +192,7 @@ for($n=1; $n <=3; $n++){
     subsequente();
 }
 
-mediafinal();
+mediafinal(6, 8);
 
 
  
