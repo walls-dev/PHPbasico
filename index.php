@@ -186,6 +186,16 @@ function subsequente(){
 for($n=1; $n <=3; $n++){
     subsequente();
 }
+function dividir($numero){
+    $metade = $numero / 2;
+    echo $metade."<br/>";
+
+    if(round($metade) > 0){
+        dividir($metade);
+    }
+}
+
+$dividir(100);
 
 
 
