@@ -206,7 +206,7 @@ echo "<hr>";
 $lista = [0, 2, 55, 1052, 3589];
 echo max($lista);
 echo min($lista);
-echo $lista;
+echo $lista[4];
 
 
 
