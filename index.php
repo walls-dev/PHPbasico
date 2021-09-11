@@ -210,8 +210,10 @@ echo "<hr>";
 echo "<h3>MUITO USADO (IMPORTANTE)</h3>";
 $nomeSujo = '      Walls        ';
 $nomeLimpo = trim($nomeSujo);
-echo "NOME SUJO: ".strlen($nomeSujo)."<br/>";
-echo "NOME LIMPO: ".strlen($nomeLimpo);
+echo "NOME SUJO: ".strlen($nomeSujo)."<br/>";//strlen conta qtos caracteres
+echo "NOME LIMPO: ".strlen($nomeLimpo)."<br/>";
+$nome = 'Ana Maria Braga';
+echo strtolower($nome);
 
 
 
