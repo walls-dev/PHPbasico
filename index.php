@@ -224,7 +224,7 @@ echo $partNome."<br/>";
 echo $partNome2."<br/>";
 echo $partNome3."<br/>";
 $posicao = strpos($nome, 'Maria');//indica a posição em que aparece Maria
-if($posicao != 5){
+if($posicao != 4){
     echo "String na posição incorreta";
 }else{
     echo "String na Posição: ".$posicao;
