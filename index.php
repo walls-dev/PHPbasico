@@ -292,7 +292,7 @@ array_shift($number);
 print_r($number);
 ast();
 echo"<h3>BUSCA EM UM ARRAY</h3>";
-if(in_array(13, $number)){
+if(in_array(250, $number)){
     echo "ENCONTRADO";
 }else{
     echo "NÃO ENCONTRADO";
