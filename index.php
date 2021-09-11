@@ -247,7 +247,6 @@ print_r($nomes);
 function ast(){
     echo '<hr>';
     for($a=1; $a <= 100; $a++){
-        echo '*'.'<br/>';
         echo '*';
     }
     echo '<hr>';
