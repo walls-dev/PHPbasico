@@ -298,7 +298,9 @@ if(in_array(250, $number)){
     echo "NÃO ENCONTRADO";
 }
 ast();
-
+echo"<h3>SEARCH != IN_ARRAY</h3>";
+$pos = array_search(3, $number);
+echo $pos;
 
 
 
