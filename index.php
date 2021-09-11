@@ -303,7 +303,7 @@ $pos = array_search(26, $number);
 echo $pos;
 echo"<h3>ORDEM CRESCENTE</h3>";
 $crescente = sort($number);
-echo $crescente;
+print_r($crescente);
 
 
 
