@@ -256,6 +256,13 @@ echo"<h3>CONTAR ITENS DO ARRAY</h3>";
 $list = ['nome1', 'nome2','nome31','nome4'];
 echo "TOTAL: ".count($lista);
 ast();
+echo"<h3>DIFERENÇA ENTRE ARRAYS</h3>";
+$listaGeral = ['Victor', 'Sandra','Walls','Nina', 'Cookie', 'Hulck'];
+$aprovados = ['Victor', 'Sandra', 'Cookie'];
+$reprovados = array_diff($aprovados, $reprovados);
+print_r($reprovados);
+
+ast();
 
 
 
