@@ -299,7 +299,7 @@ if(in_array(250, $number)){
 }
 ast();
 echo"<h3>SEARCH != IN_ARRAY</h3>";
-$pos = array_search(3, $number);
+$pos = array_search(26, $number);
 echo $pos;
 
 
