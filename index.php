@@ -204,7 +204,7 @@ echo $aleatorio;
 echo "<br/>";
 echo "<hr>";
 $lista = [0, 2, 55, 1052, 3589];
-echo min($lista). "a". max($lista);
+echo min($lista) . "a". max($lista);
 
 
 
