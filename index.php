@@ -311,6 +311,10 @@ arsort($number);
 echo '<pre>';
 print_r($number);
 echo '</pre>';
+echo"<h3>COLAR (GLUE), JUNTAR OU IMPLODIR</h3>";
+$nomes = ['Walls', 'Pereira', 'da', 'Silva'];
+$nome = implode(' ', $nomes);
+echo $nome;
 
 
 
