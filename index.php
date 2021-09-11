@@ -301,8 +301,9 @@ ast();
 echo"<h3>SEARCH != IN_ARRAY</h3>";
 $pos = array_search(26, $number);
 echo $pos;
-echo"<h3>ORDEM CRESCENTE</h3>";
-sort($number);
+echo"<h3>ORDEM CRESCENTE e DESCRESCENTE</h3>";
+//sort($number);
+rsort($number);
 print_r($number);
 
 
