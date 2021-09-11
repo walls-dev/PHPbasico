@@ -249,7 +249,6 @@ function ast(){
     for($a=1; $a <= 100; $a++){
         echo '*';
     }
-    
 }
 ast();
 echo"<h3>CONTAR ITENS DO ARRAY</h3>";
@@ -280,11 +279,18 @@ $double = array_map(function($item){
 }, $number);
 print_r($double);
 ast();*/
+function ast(){
+    echo "<br/>";
+    for($a=1; $a <= 100; $a++){
+        echo '*';
+    }
+}
 echo"<h3>REMOVER O 1º E ULTIMO ITEM DO ARRAY</h3>";
 $number = ['0' , '3', '26', '13', '9', '4', '6'];
 array_pop($number);
 array_shift($number);
 print_r($number);
+ast();
 
 
 
