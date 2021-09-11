@@ -245,7 +245,7 @@ print_r($nomes);
 //echo $nomes[2];
 
 function ast(){
-    
+    echo "<br/>";
     for($a=1; $a <= 100; $a++){
         echo '*';
     }
