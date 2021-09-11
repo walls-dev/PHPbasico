@@ -218,7 +218,9 @@ echo strtoupper($nome)."<br/>";//maiusculo
 $nomeAlterado = str_replace('a', '4', $nome);//substituir
 echo strtoupper($nomeAlterado)."<br/>";
 $partNome = substr($nome, 0, 5);//a partir da posição zero até a posição 5
+$partNome3 = substr($nome, 4, 5);//o nro 5 é qtd de caractere a partir da 4 posicao
 echo $partNome."<br/>";
+echo $partNome3."<br/>";
 
 
 
