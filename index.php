@@ -223,7 +223,13 @@ $partNome3 = substr($nome, -5, 5);//de trás para frente -5 posição e 5 caract
 echo $partNome."<br/>";
 echo $partNome2."<br/>";
 echo $partNome3."<br/>";
-$posicao = strpos($nome, 'Maria');
+$posicao = strpos($nome, 'Maria');//indica a posição em que aparece Maria
+if($posicao != 4){
+    echo "String na posição incorreta";
+}else{
+    echo "String na Posição: ".$posicao;
+}
+
 echo $posicao;
 
 
