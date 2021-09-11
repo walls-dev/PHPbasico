@@ -218,10 +218,11 @@ echo strtoupper($nome)."<br/>";//maiusculo
 $nomeAlterado = str_replace('a', '4', $nome);//substituir
 echo strtoupper($nomeAlterado)."<br/>";
 $partNome = substr($nome, 0, 5);//a partir da posição zero até a posição 5
-$partNome3 = substr($nome, 4, 5);//o nro 5 é qtd de caractere a partir da 4 posicao
+$partNome2 = substr($nome, 4, 5);//o nro 5 é qtd de caractere a partir da 4 posicao
+$partNome3 = substr($nome, -5, 5);//de trás para frente -5 posição e 5 caracteres
 echo $partNome."<br/>";
+echo $partNome2."<br/>";
 echo $partNome3."<br/>";
-
 
 
 
