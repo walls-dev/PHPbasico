@@ -241,8 +241,7 @@ if($onde != 14){
 echo "<br/>";
 echo "<hr>";
 $nomes = explode(' ', $nome);
-print_r($nomes);
-
+echo $nomes[2];
 
 
 
