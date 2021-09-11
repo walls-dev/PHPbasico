@@ -281,7 +281,7 @@ print_r($double);
 ast();*/
 function ast(){
     echo "<br/>";
-    for($a=1; $a <= 100; $a++){
+    for($a=1; $a <= 120; $a++){
         echo '*';
     }
 }
@@ -291,6 +291,14 @@ array_pop($number);
 array_shift($number);
 print_r($number);
 ast();
+echo"<h3>BUSCA EM UM ARRAY</h3>";
+if(in_array(13, $number)){
+    echo "ENCONTRADO";
+}else{
+    echo "NÃO ENCONTRADO";
+}
+ast();
+
 
 
 
