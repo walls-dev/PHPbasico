@@ -259,7 +259,7 @@ ast();
 echo"<h3>DIFERENÇA ENTRE ARRAYS</h3>";
 $listaGeral = ['Victor', 'Sandra','Walls','Nina', 'Cookie', 'Hulck'];
 $aprovados = ['Victor', 'Sandra', 'Cookie'];
-$reprovados = array_diff($aprovados, $reprovados);
+$reprovados = array_diff($listaGeral, $aprovados);
 print_r($reprovados);
 
 ast();
