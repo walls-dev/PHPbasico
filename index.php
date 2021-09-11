@@ -175,7 +175,7 @@ for ($i = 1; $i <= 30; $i++){
     $c+=1;
     echo $linha."<br/>";
 }
-
+8888888888888888888888888888888888888888888888888888888888888888888888
 function subsequente(){
     for($q = 1; $q <=10; $q++){
         echo $q."<br/>";
@@ -243,7 +243,15 @@ echo "<hr>";
 $nomes = explode(' ', $nome);
 print_r($nomes);
 //echo $nomes[2];
-
+echo "<br/>";
+echo "<hr>";
+function asterisco(){
+    for($a=1; $a <= 70; $a++){
+        echo '*';
+    }
+    echo '<hr>';
+}
+asterisco();
 
 
 
