@@ -213,7 +213,8 @@ $nomeLimpo = trim($nomeSujo);
 echo "NOME SUJO: ".strlen($nomeSujo)."<br/>";//strlen conta qtos caracteres
 echo "NOME LIMPO: ".strlen($nomeLimpo)."<br/>";
 $nome = 'Ana Maria Braga';
-echo strtolower($nome);
+echo strtolower($nome)."<br/>";
+echo strtoupper($nome);
 
 
 
