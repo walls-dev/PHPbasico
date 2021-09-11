@@ -250,7 +250,7 @@ function asterisco(){
         echo '*';
     }
     echo '<hr>';
-    echo '<br/>'
+    echo '<br/>';
 }
 asterisco();
 
