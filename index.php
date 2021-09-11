@@ -186,6 +186,7 @@ function subsequente(){
 for($n=1; $n <=3; $n++){
     subsequente();
 }
+//funçao recursiva
 function dividir($numero){
     $metade = $numero / 2;
     echo $metade."<br/>";
@@ -195,6 +196,11 @@ function dividir($numero){
     }
 }
 dividir(100);
+echo "<br/>";
+echo "<hr>";
+// função numero aleatório
+$aleatorio = rand(900001, 950000);
+echo $aleatorio;
 
 
 
