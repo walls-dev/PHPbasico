@@ -217,8 +217,8 @@ echo strtolower($nome)."<br/>";//minusculo
 echo strtoupper($nome)."<br/>";//maiusculo
 $nomeAlterado = str_replace('a', '4', $nome);//substituir
 echo strtoupper($nomeAlterado)."<br/>";
-$partNome = substr($nome, 0, 5);
-echo $partNome;
+$partNome = substr($nome, 0, 5);//a partir da posição zero até a posição 5
+echo $partNome."<br/>";
 
 
 
