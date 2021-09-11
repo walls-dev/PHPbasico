@@ -243,16 +243,16 @@ echo "<hr>";
 $nomes = explode(' ', $nome);
 print_r($nomes);
 //echo $nomes[2];
-echo "<br/>";
-echo "<hr>";
-function asterisco(){
+
+function ast(){
     for($a=1; $a <= 100; $a++){
+        echo '<hr>';
         echo '*';
     }
     echo '<hr>';
     echo '<br/>';
 }
-asterisco();
+ast();
 
 
 
