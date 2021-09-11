@@ -223,12 +223,22 @@ $partNome3 = substr($nome, -5, 5);//de trás para frente -5 posição e 5 caract
 echo $partNome."<br/>";
 echo $partNome2."<br/>";
 echo $partNome3."<br/>";
+$pagamento = "10929406770   220572021090120210903 04:24000000000000093206441200640000000000000700000000000000007000";
 $posicao = strpos($nome, 'Maria');//indica a posição em que aparece Maria
 if($posicao != 4){
     echo "String na posição incorreta";
 }else{
     echo "String na Posição: ".$posicao;
 }
+echo "<br/>";
+echo "<hr>";
+$onde = strpos($pagamento, '22057');
+if($onde != 14){
+    echo "POSIÇÃO ERRADA";
+}else{
+    echo "CAMPO 22057 NA POSIÇÃO: ".$onde;
+}
+
 
 
 
