@@ -261,7 +261,17 @@ $listaGeral = ['Victor', 'Sandra','Walls','Nina', 'Cookie', 'Hulck'];
 $aprovados = ['Victor', 'Sandra', 'Cookie'];
 $reprovados = array_diff($listaGeral, $aprovados);
 print_r($reprovados);
-
+ast();
+echo"<h3>FILTRAR UM ARRAY</h3>";
+$classificacao = ['7', '211', '198', '8', '30', '9', '16', '2', '10', '55', '63', '1', '3', '4', '5', '6'];
+$convocados = array_filter($classificacao, function($item){
+    if($item <= 10){
+        return true;
+    }else{
+        return false;
+    }
+});
+print_r($convocados);
 ast();
 
 
