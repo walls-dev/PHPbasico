@@ -19,7 +19,7 @@ echo $lorem1[0]." ".$lorem1[1]." ".$lorem1[2]."<br/>";
 echo $lorem3[0];*/
 //print_r($lorem3);
 
-$lista = [
+/*$lista = [
     'nome' => 'Walls',
     'idade' => 36,
     'atributos' => [
@@ -67,7 +67,7 @@ MÉDIA FINAL:
 CLASSIFICAÇÃO: 
 VAGAS RESERVADAS: SIM OU NÃO
 CONVOCAÇÃO: CONVOCADO OU NÃO CONVOCADO PARA A CINT*/
-echo "DADOS DO CANDIDATO: "."<br/>";
+/*echo "DADOS DO CANDIDATO: "."<br/>";
 
 echo "NOME: ".$candidato['nome']."<br/>";
 echo "EXAME: ".$candidato['concurso']."<br/>";
@@ -107,7 +107,7 @@ echo "SITUAÇAO DO CANDIDATO ". $candidato['nome'] . " APÓS AS PROVAS ESCRITAS:
 }*/
 
 //(CONDIÇÃO) ? RESULTADO POSITIVO : RESULTADO NEGATIVO;
-echo
+/*echo
 ($mediaFinal >= 6.0) ? "CANDIDATO: "."APROVADO" : "CANDIDATO: "."REPROVADO";
 echo "<br/>";
 echo
@@ -132,7 +132,7 @@ if ($tipo == 'texto'){
     echo 'Exibindo um texto';
 }*/
 
-switch($tipo){
+/*switch($tipo){
     case 'foto':
         echo 'Exibindo Foto';
         break;
@@ -150,7 +150,7 @@ while ($numero <= 10){
     echo "N: ". $numero."<br/>";
     $numero += 1;
 }*/
-for ($i = 1; $i <=6; $i ++){
+/*for ($i = 1; $i <=6; $i ++){
     echo $i;
 }
 echo "<br/>";
@@ -197,7 +197,7 @@ function dividir($numero){
 }
 dividir(100);
 echo "<br/>";
-echo "<hr>";
+echo "<hr>";*/
 // função numero aleatório
 $aleatorio = rand(900001, 950000);
 echo $aleatorio;
