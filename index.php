@@ -278,7 +278,7 @@ $number = ['0' , '3', '26', '13', '9', '4', '6'];
 $double = array_map(function($item){
     return $item *2;
 }, $number);
-print_r($dobrados);
+print_r($double);
 
 
 
