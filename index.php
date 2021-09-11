@@ -307,7 +307,7 @@ echo"<h3>ORDEM CRESCENTE e DESCRESCENTE</h3>";
 //print_r($number);
 echo"<h3>ORDENAR MANTENDO A CLASSIFICAÇÃO</h3>";
 asort($number);
-print_r($number);
+var_dump($number);
 
 
 
