@@ -207,7 +207,9 @@ $lista = [0, 2, 55, 1052, 3589];
 echo min($lista) . " a ". max($lista);
 echo "<br/>";
 echo "<hr>";
-echo "<h2>MUITO USADO (IMPORTANTE)</h2>";
+echo "<h3>MUITO USADO (IMPORTANTE)</h3>";
+$name = '      Walls        ';
+echo $name;
 
 
 
