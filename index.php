@@ -215,7 +215,7 @@ echo "NOME LIMPO: ".strlen($nomeLimpo)."<br/>";
 $nome = 'Ana Maria Braga';
 echo strtolower($nome)."<br/>";
 echo strtoupper($nome)."<br/>";
-$nomeAlterado = str_replace('Braga', 'Silva', $nome);
+$nomeAlterado = str_replace('a', '4', $nome);
 echo strtoupper($nomeAlterado);
 
 
