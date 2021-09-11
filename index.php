@@ -250,7 +250,7 @@ function ast(){
         echo '*';
     }
     echo '<hr>';
-    echo '<br/>';
+    
 }
 ast();
 
