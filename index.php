@@ -248,9 +248,9 @@ function ast(){
     echo '<hr>';
     for($a=1; $a <= 100; $a++){
         echo '*';
+        echo '*';
     }
     echo '<hr>';
-    
 }
 ast();
 
