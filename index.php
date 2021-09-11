@@ -277,7 +277,7 @@ echo"<h3>MAPEAR UM ARRAY E EXECUTAR FUNÇAO</h3>";
 $number = ['0' , '3', '26', '13', '9', '4', '6'];
 $double = array_map(function($item){
     return $item *2;
-}, $nuber);
+}, $number);
 print_r($dobrados);
 
 
