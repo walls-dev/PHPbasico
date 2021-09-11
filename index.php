@@ -201,6 +201,10 @@ echo "<hr>";*/
 // função numero aleatório
 $aleatorio = rand(900001, 950000);
 echo $aleatorio;
+echo "<br/>";
+echo "<hr>";
+$lista = [0, 2, 55, 1052, 3589];
+echo max($lista);
 
 
 
