@@ -223,6 +223,8 @@ $partNome3 = substr($nome, -5, 5);//de trás para frente -5 posição e 5 caract
 echo $partNome."<br/>";
 echo $partNome2."<br/>";
 echo $partNome3."<br/>";
+$posicao = strpos($nome, 'Maria');
+echo $posicao;
 
 
 
