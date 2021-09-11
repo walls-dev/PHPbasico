@@ -199,7 +199,7 @@ dividir(100);
 echo "<br/>";
 echo "<hr>";*/
 // função numero aleatório
-$aleatorio = rand(900001, 950000);
+/*$aleatorio = rand(900001, 950000);
 echo $aleatorio;
 echo "<br/>";
 echo "<hr>";
@@ -279,6 +279,7 @@ $double = array_map(function($item){
     return $item *2;
 }, $number);
 print_r($double);
+ast();*/
 
 
 
