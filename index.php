@@ -246,10 +246,11 @@ print_r($nomes);
 echo "<br/>";
 echo "<hr>";
 function asterisco(){
-    for($a=1; $a <= 70; $a++){
+    for($a=1; $a <= 100; $a++){
         echo '*';
     }
     echo '<hr>';
+    echo '<br/>'
 }
 asterisco();
 
