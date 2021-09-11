@@ -230,7 +230,7 @@ if($posicao != 5){
     echo "String na Posição: ".$posicao;
 }
 
-echo $posicao;
+
 
 
 
