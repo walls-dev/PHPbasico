@@ -213,10 +213,13 @@ $nomeLimpo = trim($nomeSujo);
 echo "NOME SUJO: ".strlen($nomeSujo)."<br/>";//strlen conta qtos caracteres
 echo "NOME LIMPO: ".strlen($nomeLimpo)."<br/>";
 $nome = 'Ana Maria Braga';
-echo strtolower($nome)."<br/>";
-echo strtoupper($nome)."<br/>";
-$nomeAlterado = str_replace('a', '4', $nome);
-echo strtoupper($nomeAlterado);
+echo strtolower($nome)."<br/>";//minusculo
+echo strtoupper($nome)."<br/>";//maiusculo
+$nomeAlterado = str_replace('a', '4', $nome);//substituir
+echo strtoupper($nomeAlterado)."<br/>";
+$partNome = substr($nome, 0, 3);
+echo $partNome;
+
 
 
 
