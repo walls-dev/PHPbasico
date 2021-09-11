@@ -208,8 +208,10 @@ echo min($lista) . " a ". max($lista);
 echo "<br/>";
 echo "<hr>";
 echo "<h3>MUITO USADO (IMPORTANTE)</h3>";
-$name = '      Walls        ';
-echo $name;
+$nomeSujo = '      Walls        ';
+$nomeLimpo = trim($nomeSujo);
+echo "NOME SUJO: ".strlen($nomeSujo)."<br/>";
+echo "NOME LIMPO: ".strlen($nomeLimpo);
 
 
 
