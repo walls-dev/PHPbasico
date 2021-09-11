@@ -238,6 +238,11 @@ if($onde != 14){
 }else{
     echo "CAMPO 22057 NA POSIÇÃO: ".$onde;
 }
+echo "<br/>";
+echo "<hr>";
+$nomes = explode(' ', $nome);
+echo $nomes;
+
 
 
 
