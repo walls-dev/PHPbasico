@@ -252,7 +252,7 @@ function ast(){
     
 }
 ast();
-echo"<h2>CONTAR ITENS DO ARRAY</h2>";
+echo"<h3>CONTAR ITENS DO ARRAY</h3>";
 $list = ['nome1', 'nome2','nome31','nome4'];
 echo "TOTAL: ".count($lista);
 ast();
