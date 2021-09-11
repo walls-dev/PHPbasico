@@ -280,7 +280,11 @@ $double = array_map(function($item){
 }, $number);
 print_r($double);
 ast();*/
-
+echo"<h3>REMOVER O 1º E ULTIMO ITEM DO ARRAY</h3>";
+$number = ['0' , '3', '26', '13', '9', '4', '6'];
+array_pop($number);
+array_shift($number);
+print_r($number);
 
 
 
