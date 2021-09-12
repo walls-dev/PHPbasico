@@ -322,7 +322,7 @@ function ast(){
         echo '*';
     }
 }
-echo"<h3>DATA E HORA</h3>";
+/*echo"<h3>DATA E HORA</h3>";
 echo time()."<br/>";// mostra a data em ms desde a data zero
 // data zero: 01/01/1970 PHP E JS 
 echo date('d/m/Y')."<br/>";//data formato brasil
@@ -339,4 +339,5 @@ $data = '2021-09-12';
 $time = strtotime($data);
 echo date('d/m/Y', 0)."<br/>";//O ZERO É A QTD DE TIME QUE COLOCO OU SEJA IRÁ RETORNAR PRA DATA ZERO 01-01-1970
 echo date('d/m/Y', $time)."<br/>";//mostra a data atual no formato que quero
-echo date('d/m/Y', strtotime($data));//forma reduzida
+echo date('d/m/Y', strtotime($data))."<br/>";;//forma reduzida*/
+ast();
