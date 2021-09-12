@@ -345,7 +345,7 @@ echo "Exercício"."<br/>";
 ast();
 $data  = date('d/m/Y'); 
 $dia = date('N');
-echo $dia;
+
 switch ($dia){
     case '0':
         echo 'Domingo';
