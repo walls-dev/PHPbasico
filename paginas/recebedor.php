@@ -13,9 +13,9 @@ $nome = filter_input(INPUT_POST, 'nome');
 $email = filter_input(INPUT_POST, 'email');
 $idade = filter_input(INPUT_POST, 'idade');
 if($nome && $email){
-echo "NOME: ".$nome."<br/>";
+echo "NOME : ".$nome."<br/>";
 echo "EMAIL: ".$email."<br/>";
-echo "Idade: ".$idade;
+echo "IDADE: ".$idade;
 }else{
     header("Location: formulario.php");
     exit;
