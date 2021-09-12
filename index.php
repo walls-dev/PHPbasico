@@ -340,5 +340,5 @@ $time = strtotime($data);
 echo date('d/m/Y', 0)."<br/>";//O ZERO É A QTD DE TIME QUE COLOCO OU SEJA IRÁ RETORNAR PRA DATA ZERO 01-01-1970
 echo date('d/m/Y', $time)."<br/>";//mostra a data atual no formato que quero
 echo date('d/m/Y', strtotime($data))."<br/>";;//forma reduzida*/
-ast();
+
 echo "titulo";
