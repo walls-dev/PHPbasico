@@ -279,7 +279,7 @@ $double = array_map(function($item){
 }, $number);
 print_r($double);
 ast();*/
-function ast(){
+/*function ast(){
     echo "<br/>";
     for($a=1; $a <= 120; $a++){
         echo '*';
@@ -314,9 +314,14 @@ echo '</pre>';
 echo"<h3>COLAR (GLUE), JUNTAR OU IMPLODIR</h3>";
 $nomes = ['Walls', 'Pereira', 'da', 'Silva'];
 $nome = implode(' ', $nomes);
-echo $nome;
+echo $nome;*/
 ast();
-
+function ast(){
+    echo "<br/>";
+    for($a=1; $a <= 120; $a++){
+        echo '*';
+    }
+}
 
 
 
