@@ -13,7 +13,7 @@ $nome = filter_input(INPUT_POST, 'nome');
 $email = filter_input(INPUT_POST, 'email');
 $idade = filter_input(INPUT_POST, 'idade');
 if($nome && $email){
-echo "NOME: ".$nome."<br/>";
+echo " NOME: ".$nome."<br/>";
 echo "email: ".$email."<br/>";
 echo "Idade: ".$idade;
 }else{
