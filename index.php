@@ -344,9 +344,9 @@ echo date('d/m/Y', strtotime($data))."<br/>";;//forma reduzida*/
 echo "Exercício"."<br/>";
 ast();
 $data  = date('d/m/Y'); //pega o dia atual 
-function diaDaSemana($data) {
-    $dia = date('w');  
 
+function diaDaSemana($data) {
+    $dia = date('w'); 
     switch($dia){
         case 0: 
             return "Testando Dia";
