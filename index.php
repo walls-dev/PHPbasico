@@ -374,6 +374,6 @@ switch ($dia){
 }*/
 require('config.php');//não tem nada visual então nao aparece nada do config
 require('header.php');
-echo "Conteúdo do Site...";
+echo "Conteúdo do Site..."."<br/>";
 //COMO COLOQUEI NO REQUIRE O CONFIG, POSSO EXIBIR OS DADOS DO CONFIG
 echo "NOME DO USUÁRIO: ".$usuario;
