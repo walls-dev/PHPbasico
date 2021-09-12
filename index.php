@@ -349,7 +349,7 @@ function diaDaSemana($data) {
 
     switch($dia){
         case 0: 
-            return "Domingo";
+            return "Testando Dia";
         break; 
         case 1: 
             return "Segunda-Feira";
