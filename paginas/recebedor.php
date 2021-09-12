@@ -10,7 +10,7 @@ obs: SÓ FAZER O REDIRECIONAMENTO ANTES DE EXIBIR OU ENVIAR QUALQUER COISA
 
 */
 $nome = filter_input(INPUT_POST, 'nome');
-$email = filter_input(INPUT_POST, 'email');
+$email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
 $idade = filter_input(INPUT_POST, 'idade');
 if($nome && $email){
 echo "NOME : ".$nome."<br/>";
