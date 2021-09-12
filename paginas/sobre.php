@@ -1,4 +1,4 @@
 <?php
-    require_once('../template/sobre.php');
+    require_once('../template/header.php');
 ?>
 CONTEÚDO QUALQUER DO SOBRE
