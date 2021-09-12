@@ -326,8 +326,9 @@ echo"<h3>DATA E HORA</h3>";
 echo time()."<br/>";// mostra a data em ms desde a data zero
 // data zero: 01/01/1970 PHP E JS 
 echo date('d/m/Y')."<br/>";//data formato brasil
-echo date('d/m/Y H:i:s');//data com hora
-
+echo date('d/m/Y H:i:s')."<br/>";//data com hora // brasil é -3h
+//o meu servidor esta configurado nesse padrao +3
+echo date('d');
 
 
  
