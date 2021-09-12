@@ -317,7 +317,7 @@ $nome = implode(' ', $nomes);
 echo $nome;*/
 
 function ast(){
-    
+    echo "<br/>";
     for($a=1; $a <= 64; $a++){
         echo '*';
     }
