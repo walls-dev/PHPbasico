@@ -15,7 +15,7 @@ Nome:
 <label>
 Idade:
 <br/>
-<input type="text" name="idade">
+<input type="text" name="idade" required>
 </label>
 <br/>
 <br/>
