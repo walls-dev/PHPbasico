@@ -7,7 +7,7 @@ require_once('../template/header.php');
 <label>
 Nome:
 <br/>
-<input type="text" name="nome">
+<input type="text" name="nome" required>
 </label>
 <br/>
 <br/>
