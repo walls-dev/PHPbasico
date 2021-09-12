@@ -337,5 +337,5 @@ echo date('z')."<br/>";
 //EX FORMATAR A DATA DO JEITO QUE QUERO ABAIXO
 $data = '2021-09-12';
 $time = strtotime($data);
-echo $time;
+echo date('d/m/Y', 0);
  
