@@ -317,7 +317,6 @@ $nome = implode(' ', $nomes);
 echo $nome;*/
 
 function ast(){
-    
     for($a=1; $a <= 64; $a++){
         echo '*';
     }
@@ -344,8 +343,9 @@ echo date('d/m/Y', strtotime($data))."<br/>";;//forma reduzida*/
 
 echo "Exercício"."<br/>";
 ast();
-$data = '2021-01-01';
-echo $data;
+$data = date('Y-m-d');
+$diaSemana = date('w');
+echo "DIA DA SEMANA: ".$diaSemana;
 function diaDaSemana($data){
 
 }
