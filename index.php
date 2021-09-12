@@ -317,10 +317,11 @@ $nome = implode(' ', $nomes);
 echo $nome;*/
 
 function ast(){
-    echo "<br/>";
+    
     for($a=1; $a <= 64; $a++){
         echo '*';
     }
+    echo "<br/>";
 }
 /*echo"<h3>DATA E HORA</h3>";
 echo time()."<br/>";// mostra a data em ms desde a data zero
