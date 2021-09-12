@@ -2,7 +2,7 @@
 require_once('../template/header.php');
 ?>
 <h3>Formulário</h3>
-<form method= "POST" action="recebedor.php">
+<form method= "GET" action="recebedor.php">
 
 <label>
 Nome:
@@ -13,9 +13,9 @@ Nome:
 <br/>
 
 <label>
-Idade:
+Senha:
 <br/>
-<input type="text" name="idade">
+<input type="password" name="senha">
 </label>
 <br/>
 <br/>
