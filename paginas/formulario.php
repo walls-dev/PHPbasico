@@ -13,6 +13,14 @@ Nome:
 <br/>
 
 <label>
+email:
+<br/>
+<input type="text" name="email">
+</label>
+<br/>
+<br/>
+
+<label>
 Idade:
 <br/>
 <input type="text" name="idade">

@@ -10,9 +10,12 @@ obs: SÓ FAZER O REDIRECIONAMENTO ANTES DE EXIBIR OU ENVIAR QUALQUER COISA
 
 */
 $nome = filter_input(INPUT_POST, 'nome');
+$email = filter_input(INPUT_POST, 'email');
 $idade = filter_input(INPUT_POST, 'idade');
-if($nome && $idade){
-echo "NOME: ".$nome. "  |  "."IDADE: ".$idade;
+if($nome && $email){
+echo "NOME: ".$nome."<br/>";
+echo "email: ".$email."<br/>";
+echo "Idade: ".$idade;
 }else{
     header("Location: formulario.php");
     exit;
