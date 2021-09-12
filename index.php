@@ -323,7 +323,7 @@ function ast(){
     }
 }
 echo"<h3>DATA E HORA</h3>";
-
+echo time();// mostra a data em ms desde a data zero
 
 
 
