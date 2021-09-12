@@ -346,10 +346,10 @@ ast();
 $data  = date('d/m/Y'); //pega o dia atual 
 
 function diaDaSemana($data) {
-    $dia = date('w'); 
+    $dia = date('N'); 
     switch($dia){
         case 0: 
-            return "Testando Dia";
+            return "Domingo";
         break; 
         case 1: 
             return "Segunda-Feira";
