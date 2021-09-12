@@ -344,5 +344,5 @@ echo date('d/m/Y', strtotime($data))."<br/>";;//forma reduzida*/
 echo "Exercício"."<br/>";
 ast();
 $data  = date('d/m/Y'); 
-$dia = $data('N');
+$dia = date('N');
 echo $dia;
