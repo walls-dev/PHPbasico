@@ -343,9 +343,33 @@ echo date('d/m/Y', strtotime($data))."<br/>";;//forma reduzida*/
 
 echo "Exercício"."<br/>";
 ast();
-$data = date('Y-m-d');
-$diaSemana = date('w');
-echo "DIA DA SEMANA: ".$diaSemana;
-function diaDaSemana($data){
+$data  = date("d/m/Y"); //pega o dia atual 
+function diaDaSemana($data) {
+    $dia = date("w",strtotime($data));  
 
+    switch($dia){
+        case 0: 
+            return "Domingo";
+        break; 
+        case 1: 
+            return "Segunda-Feira";
+        break; 
+        case 2: 
+            return "Terça-Feira";
+        break; 
+        case 4: 
+            return "Quarta-Feira";
+        break; 
+        case 5: 
+            return "Quinta-Feira";
+        break; 
+        case 0: 
+            return "Sexta-Feira";
+        break; 
+        case 0: 
+            return "Sabado";
+        break; 
+    }
 }
+
+echo $data." - ".diaDaSemana($data);
