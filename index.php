@@ -341,5 +341,10 @@ echo date('d/m/Y', 0)."<br/>";//O ZERO É A QTD DE TIME QUE COLOCO OU SEJA IRÁ 
 echo date('d/m/Y', $time)."<br/>";//mostra a data atual no formato que quero
 echo date('d/m/Y', strtotime($data))."<br/>";;//forma reduzida*/
 
-echo "titulo"."<br/>";
+echo "Exercício"."<br/>";
 ast();
+$data = '2021-01-01';
+echo $data;
+function diaDaSemana($data){
+
+}
