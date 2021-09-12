@@ -2,7 +2,7 @@
 require_once('../template/header.php');
 ?>
 <h3>Formulário</h3>
-<form method= "GET" action="recebedor.php">
+<form method= "POST" action="recebedor.php">
 
 <label>
 Nome:
