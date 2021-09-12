@@ -2,20 +2,20 @@
 require_once('../template/header.php');
 ?>
 <h3>Formulário</h3>
-<form method= "GET" action="">
+<form method= "GET" action="recebedor.php">
 
-<label for="">
+<label>
 Nome:
 <br/>
-<input type="text" name="" id="">
+<input type="text" name="nome">
 </label>
 <br/>
 <br/>
 
-<label for="">
+<label>
 Idade:
 <br/>
-<input type="text" name="" id="">
+<input type="text" name="idade">
 </label>
 <br/>
 <br/>
