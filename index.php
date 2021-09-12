@@ -372,5 +372,6 @@ switch ($dia){
                                     echo 'Domingo';
                                     break; 
 }*/
+require('config.php');//não tem nada visual então nao aparece nada do config
 require('header.php');
 echo "Conteúdo do Site...";
