@@ -13,7 +13,7 @@ $idade = filter_input(INPUT_POST, 'idade');
 if($nome && $idade){
 echo "NOME: ".$nome. "  |  "."IDADE: ".$idade;
 }else{
-    echo "Preencha todos os campos";
+    header("Location: formulario.php");
 }
 
 ?>
