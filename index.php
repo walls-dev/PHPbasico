@@ -337,5 +337,5 @@ echo date('z')."<br/>";
 //EX FORMATAR A DATA DO JEITO QUE QUERO ABAIXO
 $data = '2021-09-12';
 $time = strtotime($data);
-echo date('d/m/Y', 0);
- 
+echo date('d/m/Y', 0)."<br/>";//O ZERO É A QTD DE TIME QUE COLOCO OU SEJA IRÁ RETORNAR PRA DATA ZERO 01-01-1970
+echo date('d/m/Y', $time);
