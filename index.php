@@ -375,7 +375,7 @@ switch ($dia){
 include('abc.php');//o include vai mostrar o erro ma ABRE o arquivo
 //require('abc.php');//vai acusar um erro pois o arquivo não existe e IMPEDE de abrir
 require('config.php');//não tem nada visual então nao aparece nada do config
-require_once('header.php');
+require_once('template/header.php');
 require_once('header.php');
 require_once('header.php');//experimente dar o require 2x no header
 //para impedir isso aplique o require_once
