@@ -372,8 +372,8 @@ switch ($dia){
                                     echo 'Domingo';
                                     break; 
 }*/
-include('abc.php');
-//require('abc.php');//vai acusar um erro pois o arquivo não existe e impede de abrir
+include('abc.php');//o include vai mostrar o erro ma ABRE o arquivo
+//require('abc.php');//vai acusar um erro pois o arquivo não existe e IMPEDE de abrir
 require('config.php');//não tem nada visual então nao aparece nada do config
 require('header.php');
 echo "Conteúdo do Site..."."<br/>";
