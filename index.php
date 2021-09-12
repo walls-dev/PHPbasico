@@ -342,3 +342,4 @@ echo date('d/m/Y', $time)."<br/>";//mostra a data atual no formato que quero
 echo date('d/m/Y', strtotime($data))."<br/>";;//forma reduzida*/
 
 echo "titulo";
+ast();
