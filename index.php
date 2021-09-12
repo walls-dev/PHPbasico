@@ -332,4 +332,10 @@ echo date('d')."<br/>";//dia do mês // ver documentação php
 //php.net/manual/pt_BR/function.date.php
 echo date('D')."<br/>";
 echo date('z')."<br/>";
+//PADRÃO INTERNACIONAL date('Y-m-d');
+//SEMPRE Q FOR SALVAR DATA, SALVAR NO FORM INTERNACIONAL
+//EX FORMATAR A DATA DO JEITO QUE QUERO ABAIXO
+$data = '2021-09-12';
+$time = strtotime($data);
+echo $time;
  
