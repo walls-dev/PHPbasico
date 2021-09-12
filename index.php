@@ -315,6 +315,7 @@ echo"<h3>COLAR (GLUE), JUNTAR OU IMPLODIR</h3>";
 $nomes = ['Walls', 'Pereira', 'da', 'Silva'];
 $nome = implode(' ', $nomes);
 echo $nome;
+ast();
 
 
 
