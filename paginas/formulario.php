@@ -13,9 +13,9 @@ Nome:
 <br/>
 
 <label>
-Senha:
+Idade:
 <br/>
-<input type="password" name="senha">
+<input type="text" name="idade">
 </label>
 <br/>
 <br/>
