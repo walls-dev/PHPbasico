@@ -331,5 +331,5 @@ echo date('d/m/Y H:i:s')."<br/>";//data com hora // brasil é -3h
 echo date('d')."<br/>";//dia do mês // ver documentação php
 //php.net/manual/pt_BR/function.date.php
 echo date('D')."<br/>";
-echo date('j')."<br/>";
+echo date('l')."<br/>";
  
