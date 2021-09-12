@@ -328,8 +328,8 @@ echo time()."<br/>";// mostra a data em ms desde a data zero
 echo date('d/m/Y')."<br/>";//data formato brasil
 echo date('d/m/Y H:i:s')."<br/>";//data com hora // brasil é -3h
 //o meu servidor esta configurado nesse padrao +3
-echo date('d');
-
-
+echo date('d')."<br/>";//dia do mês // ver documentação php
+//php.net/manual/pt_BR/function.date.php
+echo date('D')."<br/>";
  
  
