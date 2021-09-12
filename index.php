@@ -318,7 +318,7 @@ echo $nome;*/
 ast();
 function ast(){
     echo "<br/>";
-    for($a=1; $a <= 120; $a++){
+    for($a=1; $a <= 100; $a++){
         echo '*';
     }
 }
