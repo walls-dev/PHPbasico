@@ -6,7 +6,7 @@ session_start();
 $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
 //3º VERIFICO SE EXISTE E REDIRECIONO PARA A INDEX
 if($nome){
-    $nome = $_POST['nome'];
+    $_SESSION['nome'];
     header('Location:index.php');
     exit;
 }else{
