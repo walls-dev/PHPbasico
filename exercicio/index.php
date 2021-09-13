@@ -8,4 +8,4 @@ if($_SESSION['usuario']){
 echo "<h3>PÁGINA INICIAL</h3>"."<br/>";
 
 ?>
-<a href="">Sair</a>&nbsp;&nbsp;<a href="login.php">Login</a>
+<a href="logout.php">Sair</a>&nbsp;&nbsp;<a href="login.php">Login</a>
