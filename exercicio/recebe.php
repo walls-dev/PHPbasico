@@ -9,7 +9,7 @@ if($nome){
     
 }else{
     $_SESSION['aviso'] = 'Preencha os campos corretamente!';
-    header('Location: index.php');
+    header('Location: login.php');
     exit;
 }
 //4º INICIO A SESSAO EM TODAS AS PAGINAS
