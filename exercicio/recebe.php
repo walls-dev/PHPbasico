@@ -10,7 +10,7 @@ if($nome){
     exit;
     echo $nome;
 }else{
-    $_SESSION['aviso'] = 'Preencha os campos corretamente!';
+   
    
 }
 //4º INICIO A SESSAO EM TODAS AS PAGINAS
