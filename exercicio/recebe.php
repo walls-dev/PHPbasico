@@ -9,5 +9,7 @@ if($nome){
     header('Location: index.php');
     exit;
 }else{
-    echo "PREENCHA O CAMPO";
+    $_SESSION['aviso'] = 'Preencha os campos corretamente!';
 }
+//4º INICIO A SESSAO EM TODAS AS PAGINAS
+//5º VERIFICO SE A SESSAO EXISTE E SENÃO DIVULGO O AVISO

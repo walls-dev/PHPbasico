@@ -1,6 +1,10 @@
 <?php
 session_start();
-echo "<h2>EXERCICIO</h2>";
+if($_SESSION['aviso']){
+    echo $_SESSION['aviso'];
+    $_SESSION['aviso'] = '';
+}
+
 ?>
 <form method= "POST" action="recebe.php">
     <label>
