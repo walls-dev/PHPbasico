@@ -1,2 +1,5 @@
 <?php
-session_start();
+
+echo "Olá, "."nomedoUsuario"."<br/>";
+?>
+<a href="">Sair</a>
