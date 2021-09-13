@@ -7,6 +7,7 @@ $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
 //3º VERIFICO SE EXISTE E REDIRECIONO PARA A INDEX
 if($nome){
     header('Location:index.php');
+    exit;
 }else{
     $_SESSION['aviso'] = 'Preencha os campos corretamente!';
     header('Location: login.php');
