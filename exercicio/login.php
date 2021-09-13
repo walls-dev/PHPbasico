@@ -1,5 +1,9 @@
 <?php
 session_start();
+if(isset($_SESSION['alerta'])){
+    $alerta = $_SESSION['alerta'];
+    echo $alerta;
+}
 ?>
 <form method= "POST" action="recebe.php">
     <label>
@@ -10,3 +14,4 @@ session_start();
         <input type="submit" value="Salvar">
     </label>
 </form>
+

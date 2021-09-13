@@ -6,6 +6,7 @@ if($nome){
     header('Location: index.php');
     exit;
 }else{
+    $_SESSION['alerta'] = 'Preencha o nome do usuário';
     header('Location:login.php');
     exit;
 }
