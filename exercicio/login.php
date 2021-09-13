@@ -9,6 +9,4 @@ echo "<h2>EXERCICIO</h2>";
         <br/>
         <input type="submit" value="Salvar">
     </label>
-
-
 </form>
