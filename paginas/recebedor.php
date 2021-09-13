@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once('../template/header.php');
 /*  
 COMO RECEBER AS INFORMAÇÕES DO FORMULÁRIO
@@ -13,6 +14,7 @@ echo "NOME : ".$nome."<br/>";
 echo "EMAIL: ".$email."<br/>";
 echo "IDADE: ".$idade;
 }else{
+    $_SESSION['aviso'] = 'Preencha os campos corretamente!';
     header("Location: formulario.php");
     exit;
 }
