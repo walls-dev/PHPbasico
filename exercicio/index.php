@@ -1,8 +1,8 @@
 <?php
 session_start();
-if($_SESSION['nome']){
-    echo "Olá, ".$_SESSION['nome']."<br/>";
-    $_SESSION['nome'] = '';
+if($_SESSION['usuario']){
+    echo "Olá, ".$_SESSION['usuario']."<br/>";
+    $_SESSION['usuario'] = '';
 }else{
     echo "";
 }
