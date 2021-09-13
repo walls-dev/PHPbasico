@@ -8,6 +8,7 @@ $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
 if($nome){
     header('Location:index.php');
     exit;
+    echo $nome;
 }else{
     $_SESSION['aviso'] = 'Preencha os campos corretamente!';
     header('Location: login.php');
