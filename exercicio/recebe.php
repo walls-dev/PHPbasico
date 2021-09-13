@@ -8,9 +8,8 @@ $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
 if($nome){
     header('Location:index.php');
     exit;
-    echo $nome;
 }else{
-   
+   echo "Preencha o campo";
    
 }
 //4º INICIO A SESSAO EM TODAS AS PAGINAS

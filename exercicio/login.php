@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 ?>
 <form method= "POST" action="recebe.php">
     <label>
