@@ -1,6 +1,6 @@
 <?php
 session_start();
-if($_SESSION['usuario']){
+if(isset($_SESSION['usuario'])){
     echo "Olá, ".$_SESSION['usuario']."<br/>";
 }
 ?>
