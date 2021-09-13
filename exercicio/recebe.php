@@ -6,10 +6,13 @@ session_start();
 $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
 //3º VERIFICO SE EXISTE E REDIRECIONO PARA A INDEX
 if($nome){
+    $_SESSION['nome'] = $nome;
     header('Location:index.php');
     exit;
 }else{
-   echo "Preencha o campo";
+    $_SESSION['msg'] = 'Preencha os campos corretamente!';
+    header("Location: login.php");
+    exit;
    
 }
 //4º INICIO A SESSAO EM TODAS AS PAGINAS
