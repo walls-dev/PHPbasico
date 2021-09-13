@@ -1,8 +1,8 @@
 <?php
 session_start();
 if(isset($_SESSION['alerta'])){
-    $alerta = $_SESSION['alerta'];
-    echo $alerta;
+    echo $_SESSION['alerta'];
+    $_SESSION['alerta'] = '';
 }
 ?>
 <form method= "POST" action="recebe.php">
