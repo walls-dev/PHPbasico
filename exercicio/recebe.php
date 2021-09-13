@@ -10,7 +10,7 @@ if($nome){
     header('Location:index.php');
     exit;
 }else{
-    $_SESSION['msg'] = 'Preencha os campos corretamente!';
+    
     header("Location: login.php");
     exit;
    
