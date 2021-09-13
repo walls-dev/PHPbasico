@@ -1,5 +1,5 @@
 <?php
-
+echo "<h3>PÁGINA INICIAL</h3>"."<br/>";
 echo "Olá, "."nomedoUsuario"."<br/>";
 ?>
 
