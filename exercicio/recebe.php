@@ -11,8 +11,7 @@ if($nome){
     echo $nome;
 }else{
     $_SESSION['aviso'] = 'Preencha os campos corretamente!';
-    header('Location: login.php');
-    exit;
+   
 }
 //4º INICIO A SESSAO EM TODAS AS PAGINAS
 //5º VERIFICO SE A SESSAO EXISTE E SENÃO DIVULGO O AVISO
