@@ -6,6 +6,7 @@ if($_SESSION['aviso']){
     $_SESSION['aviso'] = '';
 }
 ?>
+<a href="apagaCookie.php">Apagar Cookie</a>
 <h3>Formulário</h3>
 <form method= "POST" action="recebedor.php">
 
