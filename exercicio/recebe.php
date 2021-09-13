@@ -1,4 +1,5 @@
 <?php
+session_start();
 //1º RECEBO OS DADOS
 //$nome = filter_input(INPUT_POST, 'nome');
 //2º SANITIZO OS DADOS RECEBIDOS

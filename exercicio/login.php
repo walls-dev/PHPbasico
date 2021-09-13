@@ -1,4 +1,5 @@
 <?php
+session_start();
 echo "<h2>EXERCICIO</h2>";
 ?>
 <form method= "POST" action="recebe.php">
