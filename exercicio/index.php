@@ -2,6 +2,7 @@
 session_start();
 if($_SESSION['nome']){
     echo "Olá, ".$_SESSION['nome']."<br/>";
+    $_SESSION['nome'] = '';
 }else{
     echo "";
 }
