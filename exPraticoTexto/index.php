@@ -7,7 +7,7 @@ echo "</label>";
 echo "<input type='submit' value='Adicionar'>";
 echo "</form>";
 echo "<h3>"."Lista de Nomes"."</h3>";
-
+###############################################
 $nomes = file_get_contents('nomes.txt');
 $novoNome = '';
 $nomes .="\n$novoNome";
