@@ -14,9 +14,12 @@ $nomes = file_get_contents('nomes.txt');//li
 $nomes .= "\n$novoNome";//adicionando novo nome
 ##$nomes = file_put_contents('nomes.txt', $novoNome);//salvando novo nome
 $nomes = explode("\n", $nomes);
+foreach($nomes as $nome){
+    echo "<li>". $nome ."</li>";
+}
 
 
-echo "<pre>";
+/*echo "<pre>";
 print_r($nomes);
 echo "</pre>";
 /*$pag = file_get_contents('pag.txt');
