@@ -8,5 +8,5 @@ Novo Nome:<br/>
 <h3>Lista de Nomes</h3>
 <?php
 $nomes = file_get_contents('nomes.txt');##li
-echo $nomes;
+echo "\n".$nomes;
 ?>
