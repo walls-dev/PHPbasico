@@ -14,9 +14,9 @@ $nomes = file_get_contents('nomes.txt');
 $nomes .= "\n$novoNome";//adicionando novo nome
 $nomes = file_put_contents('nomes.txt', $nomes);//salvando os nomes
 $nomes = explode("\n", $nomes);
-//foreach($nomes as $nome){
-    echo "<li>". $nomes ."</li>";
-//}
+foreach($nomes as $nome){
+    echo "<li>". $nome ."</li>";
+}
 
 
 /*echo "<pre>";
