@@ -10,12 +10,19 @@ echo "</form>";
 echo "<h3>"."Lista de Nomes"."</h3>";
 $novoNome = filter_input(INPUT_POST, 'novoNome', FILTER_SANITIZE_SPECIAL_CHARS);
 $nomes = file_get_contents('nomes.txt');
-$nomes .= "\n$novoNome";//adicionando novo nome
-$nomes = file_put_contents('nomes.txt', $nomes);//salvando os nomes
-$nomes = explode("\n", $nomes);
-foreach($nomes as $n){
-    echo "<li>".$n."</li>";
+if($novoNome == $nomes ){
+    echo "Nome já cadastrado";
+}else{
+    $nomes .= "\n$novoNome";//adicionando novo nome
+    $nomes = file_put_contents('nomes.txt', $nomes);//salvando os nomes
+    $nomes = explode("\n", $nomes);
 }
+
+
+
+/*foreach($nomes as $n){
+    echo "<li>".$n."</li>";
+}*/
 
 
 
