@@ -16,6 +16,7 @@ $nomes .= "\n$novoNome";//adicionando novo nome
 $nomes = explode("\n", $nomes);
 foreach($nomes as $nome){
     echo "<li>". $nome ."</li>";
+    $nomes = file_put_contents('nomes.txt', $novoNome);
 }
 
 
