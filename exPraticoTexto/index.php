@@ -9,6 +9,6 @@ Novo Nome:<br/>
 <?php
 $nomes = file_get_contents('nomes.txt');
 $nomes = explode("\n", $nomes);
-$nomes = "<li>".$nomes."</li>";
+$nomes = $nomes;
 echo $nomes;
 ?>
