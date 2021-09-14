@@ -14,9 +14,9 @@ $nomes = file_get_contents('nomes.txt');//li
 $nomes = explode("\n", $nomes);
 ##$nomes .= "\n".$novoNome;//adicionando novo nome
 ##$nomes = file_put_contents('nomes.txt', $novoNome);//salvando novo nome
-"<pre>";
+echo "<pre>";
 print_r($nomes);
-"</pre>";
+echo "</pre>";
 /*$pag = file_get_contents('pag.txt');
 $pag = explode("\n", $pag);
 echo "LINHAS:".count($pag);*/
