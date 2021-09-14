@@ -13,7 +13,7 @@ $novoNome = filter_input(INPUT_POST, 'novoNome', FILTER_SANITIZE_SPECIAL_CHARS);
 $nomes = file_get_contents('nomes.txt');//li
 $nomes = explode("\n", $nomes);
 ##$nomes .= "\n".$novoNome;//adicionando novo nome
-##$nomes = file_put_contents('nomes.txt', $novoNome);//salvando novo nome
+$nomes = file_put_contents('nomes.txt', $novoNome);//salvando novo nome
 echo "<pre>";
 print_r($nomes);
 echo "</pre>";
