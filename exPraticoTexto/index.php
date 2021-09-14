@@ -8,6 +8,6 @@ Novo Nome:<br/>
 <h3>Lista de Nomes</h3>
 <?php
 $nomes = file_get_contents('nomes.txt');
-$nomes = explode("<li></li>", $nomes);
+$nomes = "<li>".$nomes."</li>";
 echo $nomes;
 ?>
