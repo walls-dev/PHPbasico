@@ -1,7 +1,3 @@
-<?php
-
-
-?>
 <form action="">
 <label>
 Novo Nome:<br/>
@@ -10,3 +6,7 @@ Novo Nome:<br/>
 <input type="submit" value="Adicionar">
 </form>
 <h3>Lista de Nomes</h3>
+<?php
+$nomes = file_get_contents('nomes.txt');##li
+echo $nomes;
+?>
