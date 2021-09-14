@@ -1,4 +1,4 @@
-<form action="">
+<form action="index.php" method="POST">
 <label>
 Novo Nome:<br/>
 <input type="text" name="novoNome">
@@ -8,6 +8,6 @@ Novo Nome:<br/>
 <h3>Lista de Nomes</h3>
 <?php
 $nomes = file_get_contents('nomes.txt');
-$nomes = explode("\n", $nomes);
-echo count($nomes);
+$nomes = explode("<li></li>", $nomes);
+echo $nomes;
 ?>
