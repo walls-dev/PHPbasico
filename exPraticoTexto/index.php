@@ -11,6 +11,7 @@ echo "<h3>"."Lista de Nomes"."</h3>";
 ###############################################
 $novoNome = filter_input(INPUT_POST, 'novoNome', FILTER_SANITIZE_SPECIAL_CHARS);
 $nomes = file_get_contents('nomes.txt');//li
+echo $nomes;
 $nomes.= "\n".$novoNome."\n";//adicionando novo nome
 $nomes = file_put_contents('nomes.txt', $novoNome);//salvando novo nome
 echo $novoNome;
