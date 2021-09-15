@@ -1,6 +1,6 @@
 <?php
-//echo '<pre>';
-//print_r($_FILES);//VARIÁVEL GLOBAL
+echo '<pre>';
+print_r($_FILES);//VARIÁVEL GLOBAL
 /*Array
 (
     [arquivo] => Array
@@ -19,5 +19,6 @@
 //o 1º é onde está na pasta temporaria [ arquivo é o name do input][tmp_name]
 //o 2º é onde que mover o arquivo nome da pasta + o nome do arquivo
 //
+//$permitidos = [''];
 $nome = $_FILES['arquivo']['name'];//usando o nome original
 move_uploaded_file($_FILES['arquivo']['tmp_name'],'Arquivos/'.$nome);
