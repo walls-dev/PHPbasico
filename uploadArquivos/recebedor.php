@@ -20,10 +20,10 @@
 //o 2º é onde que mover o arquivo nome da pasta + o nome do arquivo
 //
 //$permitidos = ['text/plain.txt', 'application.pdf'];
-$permitidos = ['text.txt'];
+$permitidos = ['application.pdf'];
 if(in_array($_FILES['arquivo']['type'], $permitidos)){
     //$nome = $_FILES['arquivo']['name'];//usando o nome original
-    $nome = md5(time().rand(0, 1000)).'txt';//para não sobrescrever - gerar outro nome
+    $nome = md5(time().rand(0, 1000)).'pdf';//para não sobrescrever - gerar outro nome
     move_uploaded_file($_FILES['arquivo']['tmp_name'],'Arquivos/'.$nome);
     echo "Arquivo Salvo com sucesso!";
 }else{
