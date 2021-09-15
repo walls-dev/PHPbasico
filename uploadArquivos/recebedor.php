@@ -20,4 +20,4 @@
 //o 2º é onde que mover o arquivo nome da pasta + o nome do arquivo
 //
 $nome = $_FILES['arquivo']['name'];//usando o nome original
-move_uploaded_file($_FILES['arquivo']['tmp_name'], 'uploadArquivos/'.$nome);
+move_uploaded_file($_FILES['arquivo']['tmp_name'],'uploadArquivos/'.$nome);
