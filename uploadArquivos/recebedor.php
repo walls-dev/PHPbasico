@@ -20,7 +20,7 @@
 //o 2º é onde que mover o arquivo nome da pasta + o nome do arquivo
 //
 //$permitidos = ['text/plain.txt', 'application.pdf'];
-$permitidos = ['text/plain/txt'];
+$permitidos = ['text/plain'];
 if(in_array($_FILES['arquivo']['type'], $permitidos)){
     //$nome = $_FILES['arquivo']['name'];//usando o nome original
     $nome = md5(time().rand(0, 1000)).'txt';//para não sobrescrever - gerar outro nome
