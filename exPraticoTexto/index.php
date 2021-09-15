@@ -10,7 +10,7 @@ echo "</form>";
 echo "<h3>"."Lista de Nomes"."</h3>";
 $novoNome = filter_input(INPUT_POST, 'novoNome', FILTER_SANITIZE_SPECIAL_CHARS);
 $nomes = file_get_contents('nomes.txt');
-if($novoNome == $novoNome){
+if($novoNome == $nomes){
     echo "Nome já cadastrado";
 }else{
     $nomes .= "\n$novoNome";//adicionando novo nome
