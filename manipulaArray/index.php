@@ -45,12 +45,8 @@ echo "</pre>";
 #############################################
 ##     COLOCANDO EM UMA TABELA             ##
 #############################################
-echo "<table>";
-echo "<tr>"."<td></td>"."<td></td>"."</tr>";
-echo "<tr>"."<td></td>"."<td></td>"."</tr>";
-echo "<tr>"."<td></td>"."<td></td>"."</tr>";
-echo "<tr>"."<td></td>"."<td></td>"."</tr>";
-echo "<tr>"."<td></td>"."<td></td>"."</tr>";
-echo "<tr>"."<td></td>"."<td></td>"."</tr>";
-echo "</table>";
-echo "EU";
+
+
+foreach($candidato as $item){
+    echo $item."<br/>";
+}
