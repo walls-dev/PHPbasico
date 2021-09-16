@@ -18,7 +18,7 @@ $candidato = [
 ];
 if(key_exists('idade', $candidato)){
 $idade = $candidato['idade'];
-echo "Idade: ".$idade." anos";
+echo "Idade: ".$idade." anos"."<br/>";
 }else{
     echo "Não tem idade";
 }
