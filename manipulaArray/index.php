@@ -49,7 +49,7 @@ echo "</pre>";
 <table border="1">
 <?php foreach($candidato as $chave => $valor): ?>
     <tr>
-        <td><?php echo $chave;?></td>
+        <th><?php echo $chave;?></th>
         <td><?php echo $valor;?></td>
     </tr>
 <?php endforeach; ?>
