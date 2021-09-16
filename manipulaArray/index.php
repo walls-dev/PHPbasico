@@ -42,3 +42,6 @@ echo "VALORES";
 echo "<pre>";
 print_r($valores);
 echo "</pre>";
+#############################################
+##     COLOCANDO EM UMA TABELA             ##
+#############################################
