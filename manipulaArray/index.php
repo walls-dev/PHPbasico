@@ -79,7 +79,7 @@ $chaves = array_keys($array);
         <?php endforeach; ?>
     </tr>
     <tr>
-        <?php foreach($v as $valor): ?>
+        <?php foreach($valores as $valor): ?>
                 <td><?php echo $valor;?></td>
         <?php endforeach; ?>
     </tr>
