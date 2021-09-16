@@ -68,7 +68,7 @@ $array = [
         'TESTE' => 'OK',
 ];
 $chaves = array_keys($array);
-$v = array_values($array);
+
 
 ?>
 
