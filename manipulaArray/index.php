@@ -67,7 +67,7 @@ $array = [
         'profissao' => 'SIM',
         'TESTE' => 'OK',
 ];
-echo "agui vou mostrar a quebra\n quebrou aqui"; 
+echo "agui vou mostrar a quebra \n quebrou aqui"; 
 
 ?>
 
