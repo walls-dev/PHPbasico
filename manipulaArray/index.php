@@ -70,7 +70,7 @@ $array = [
 <table border="1">
     <tr>
 <?php foreach($array as $chave => $valor): ?>
-        <td><?php echo $chave;?></td>
-</tr>
+        <th><?php echo $chave;?></th>
+    </tr>
 <?php endforeach; ?>
 </table>
