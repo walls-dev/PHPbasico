@@ -29,4 +29,4 @@ $chaves = array_keys($candidato);
 print_r($chaves);
 
 //$chaves = array_values($candidato);
-print_r($chaves);
+//print_r($chaves);
