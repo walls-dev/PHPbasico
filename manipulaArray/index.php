@@ -16,12 +16,15 @@ $candidato = [
         'cor' => 'negra',
         'espec' => 'SIM'
 ];
-if(key_exists('idade', $candidato)){
+/*if(key_exists('idade', $candidato)){
 $idade = $candidato['idade'];
 echo "Idade: ".$idade." anos"."<br/>";
 }else{
     echo "Não tem idade";
-}
+}*/
+echo "<pre>";
+print_r($candidato);
+echo "</pre>";
 #############################################
 ##     ARRAY_KEYS / ARRAY_VALUES           ##
 #############################################
