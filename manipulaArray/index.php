@@ -64,7 +64,8 @@ $array = [
         'idade' => 35,
         'empresa' => '41W15',
         'cor' => 'negra',
-        'profissao' => 'SIM'
+        'profissao' => 'SIM',
+        'TESTE' => 'OK',
 ];
 ?>
 <table border="1">
