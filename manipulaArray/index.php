@@ -68,9 +68,9 @@ $array = [
 ];
 ?>
 <table border="1">
-<?php foreach($array as $chave => $valor): ?>
     <tr>
+<?php foreach($array as $chave => $valor): ?>
         <td><?php echo $chave;?></td>
-    </tr>
+</tr>
 <?php endforeach; ?>
 </table>
