@@ -7,14 +7,18 @@ $array = range(900001, 900010);//range tem 2 parametros
 foreach($array as $item){
     echo $item."<br/>";
 }
-//KEY EXIST
+//KEY EXISTS
 $candidato = [
         'nome' => 'Walls',
-        'idade' => 36,
+        'age' => 36,
         'exame' => 'EAGS 2020',
         'oVR' => true,
         'cor' => 'negra',
         'espec' => 'SIM'
 ];
+if(key_exists('idade', $candidato)){
 $idade = $candidato['idade'];
 echo "Idade: ".$idade." anos";
+}else{
+    echo "Não tem idade";
+}
