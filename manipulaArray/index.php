@@ -66,6 +66,8 @@ $array = [
         'cor' => 'branca',
         'profissao' => 'SIM',
         'TESTE' => 'OK',
+        'PESO' => '50KG',
+        'ALTURA' => '1.60'
 ];
 $chaves = array_keys($array);
 $valores = array_values($array);
