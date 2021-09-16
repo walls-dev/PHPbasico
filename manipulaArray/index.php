@@ -61,7 +61,7 @@ echo "</pre>";
 echo "<br/>";
 $array = [
         'nome' => 'Walls',
-        'idade' => 35,
+        'idade' => 36,
         'empresa' => '41W15',
         'cor' => 'negra',
         'profissao' => 'SIM',
