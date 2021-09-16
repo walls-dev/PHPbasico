@@ -55,5 +55,22 @@ echo "</pre>";
 <?php endforeach; ?>
 </table>
 #############################################
-##     COLOCANDO EM UMA TABELA             ##
+##   COLOCANDO EM UMA TABELA HORIZONTAL    ##
 #############################################
+<?php
+echo "<br/>";
+$array = [
+        'nome' => 'Walls',
+        'idade' => 35,
+        'empresa' => '41W15',
+        'cor' => 'negra',
+        'profissao' => 'SIM'
+];
+?>
+<table border="1">
+<?php foreach($array as $chave): ?>
+    <tr>
+        <td><?php echo $chave;?></td>
+    </tr>
+<?php endforeach; ?>
+</table>
