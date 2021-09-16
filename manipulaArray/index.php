@@ -45,8 +45,13 @@ echo "</pre>";
 #############################################
 ##     COLOCANDO EM UMA TABELA             ##
 #############################################
+?>
+<table>
+<?php foreach($candidato as $chave => $valor): ?>
+    <tr>
+        <td><?php echo $chave;?></td>
+        <td><?php echo $valor;?></td>
+    </tr>
+<?php endforeach; ?>
+</table>
 
-
-foreach($candidato as $item){
-    echo $item."<br/>";
-}
