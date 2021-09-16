@@ -10,7 +10,7 @@ foreach($array as $item){
 //KEY EXISTS
 $candidato = [
         'nome' => 'Walls',
-        'age' => 36,
+        'idade' => 35,
         'exame' => 'EAGS 2020',
         'oVR' => true,
         'cor' => 'negra',
