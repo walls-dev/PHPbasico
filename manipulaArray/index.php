@@ -67,7 +67,10 @@ $array = [
         'profissao' => 'SIM',
         'TESTE' => 'OK',
 ];
+echo "agui vou mostrar a quebra"."\n"."quebrou aqui"; 
+
 ?>
+
 <table border="1">
     <tr>
         <?php foreach($array as $chave => $valor): ?>
