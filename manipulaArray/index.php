@@ -73,4 +73,9 @@ $array = [
                 <th><?php echo $chave;?></th>
         <?php endforeach; ?>
     </tr>
+    <tr>
+        <?php foreach($array as $chave => $valor): ?>
+                <td><?php echo $valor;?></td>
+        <?php endforeach; ?>
+    </tr>
 </table>
