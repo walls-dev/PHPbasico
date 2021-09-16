@@ -26,7 +26,7 @@ echo "Idade: ".$idade." anos"."<br/>";
 ##     ARRAY_KEYS / ARRAY_VALUES           ##
 #############################################
 $chaves = array_keys($candidato);
-
+echo "CHAVES";
 echo "<pre>";
 print_r($chaves);
 echo "</pre>";
@@ -35,5 +35,7 @@ for($n = 1; $n <= 45; $n++){
 }
 echo "<br/>";
 $valores = array_values($candidato);
-
+echo "VALORES";
+echo "<pre>";
 print_r($valores);
+echo "</pre>";
