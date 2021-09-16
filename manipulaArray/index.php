@@ -31,8 +31,9 @@ echo "<pre>";
 print_r($chaves);
 echo "</pre>";
 for($n = 1; $n <= 45; $n++){
-    echo "#"."<br/>";
+    echo "#";
 }
+echo "<br/>";
 $valores = array_values($candidato);
 
 print_r($valores);
