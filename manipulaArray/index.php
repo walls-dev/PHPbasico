@@ -46,7 +46,7 @@ echo "</pre>";
 ##     COLOCANDO EM UMA TABELA             ##
 #############################################
 ?>
-<table>
+<table border="1">
 <?php foreach($candidato as $chave => $valor): ?>
     <tr>
         <td><?php echo $chave;?></td>
