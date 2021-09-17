@@ -67,7 +67,7 @@ $array = [
         'profissao' => 'SIM',
         'TESTE' => 'OK',
         'PESO' => '10KG',
-        'ALTURA' => '1.50'
+        'ALTURA' => '1.50',
 ];
 $chaves = array_keys($array);
 
