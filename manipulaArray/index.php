@@ -70,7 +70,7 @@ $array = [
         'ALTURA' => '1.50'
 ];
 $chaves = array_keys($array);
-$valores = array_keys($values);
+$valores = array_values($array);
 
 ?>
 
