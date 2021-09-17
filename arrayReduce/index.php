@@ -20,8 +20,6 @@ function contar_m($subtotal, $item){
     return $subtotal;
 }
 $total_m = array_reduce($alunos, 'contar_m');
-echo "Total de homens: ".$total_m;
-echo "<br/>";
 //SOMA DAS NOTAS DOS HOMENS
 function notas_m($subtotal, $item){
         if($item['sexo'] === 'M'){
@@ -30,4 +28,5 @@ function notas_m($subtotal, $item){
     return $subtotal;
 }
 $notas_m = array_reduce($alunos, 'notas_m');
+echo "Total de homens: ".$total_m."<br/>";
 echo "Soma das notas dos hones: ".$notas_m;
