@@ -60,14 +60,14 @@ echo "</pre>";
 <?php
 echo "<br/>";
 $array = [
-        'nome' => 'SANDRA',
+        'nome' => 'COOKIE',
         'idade' => 16,
         'empresa' => 'nina',
         'cor' => 'branca',
         'profissao' => 'SIM',
         'TESTE' => 'OK',
-        'PESO' => '50KG',
-        'ALTURA' => '1.60'
+        'PESO' => '10KG',
+        'ALTURA' => '1.50'
 ];
 $chaves = array_keys($array);
 $valores = array_values($array);
