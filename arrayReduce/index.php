@@ -13,7 +13,6 @@ $alunos = [
 //O PRIMEIRO É O ARRAY
 //O SEGUNDO É UMA FUNÇAO QUE IRA SER EXECUTADA A CADA ITEM DO ARRAY
 //EX: O TOTAL DE HOMENS DO ARRAY
-
 function contar_m($subtotal, $item){
     if($item['sexo'] === 'M'){
         $subtotal++;
@@ -22,3 +21,13 @@ function contar_m($subtotal, $item){
 }
 $total_m = array_reduce($alunos, 'contar_m');
 echo "Total de homens: ".$total_m;
+echo "<br/>";
+//SOMA DAS NOTAS DOS HOMENS
+function notas_m($subtotal, $item){
+        if($item['sexo'] === 'M'){
+        $subtotal += $item['nota'];
+    }
+    return $subtotal;
+}
+$notas_m = array_reduce($alunos, 'notas_m');
+echo "Soma das notas dos hones: ".$notas_m;
