@@ -30,5 +30,5 @@ function notas_m($subtotal, $item){
 $notas_m = array_reduce($alunos, 'notas_m');
 echo "Total de homens: ".$total_m."<br/>";
 echo "Soma das notas dos homens: ".$notas_m."<br/>";
-$media_m = ($notas_m/$total_m);
+$media_m = $notas_m/$total_m;
 echo "Média das notas dos homens: ".$media_m;
