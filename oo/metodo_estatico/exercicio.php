@@ -1,0 +1,12 @@
+<?php
+require_once('../calculadora.php');
+$calc = new Calculadora();
+$calc->add(12);
+$calc->add(2);
+$calc->sub(1);
+$calc->multiply(3);
+$calc->divide(2);
+$calc->add(0.5);
+
+//$calc->clear();
+echo 'Total calc = ' . $calc->total();
