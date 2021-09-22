@@ -1,19 +1,38 @@
 <?php
-//A FORMA MAIS UTILIZADA DISPARADAMENTE PARA CONECTAR É A PDO
-// PDO É UMA BIBLIOTECA QUE JÁ VEM HABILITADA PARA CONECTAR VÁRIOS BD
-//OBS: O PDO É UMA CLASSE QUE VC PRECISA INSTANCIAR, OU SEJA, VC PODE
-// CHAMAR DO QUE QUISER
-//ELA RECEBE ALGUNS DADOS
-// O 1º QUAL O TIPO DE BD - mysql como o nome do db;
-//host: onde ele esta. No meu caso esta na porta 3308
-//depois precisamos dizer o usuario e a senha
-//PARA TESTAR, POSSO USAR UM METODO DO PROPRIO PDO QUE É A QUERY
-//depois de executar a query, dou um fetchAll - fetch (pegue os dados) quais: all
-//OBSERVE QUE AO DAR O PRINT_R OS DADOS SE REPETEM POIS NÃO FOI FEITA NENHUMA ASSOCIAÇÃO
-//ENTÃO DEVO UTILIZAR DO PDO O FETCHALL NA CONSULTA $sql->fetchAll( PDO::FETCH_ASSOC) CONSTANTE ESTATICA;
-$pdo = new PDO("mysql:dbname=b7web;host=localhost:3308", "root", "");
-$sql = $pdo->query('SELECT * FROM usuarios');
-echo "TOTAL: ".$sql->rowCount()."<br/>";//qtos registros existem na minha consulta
-$dados = $sql->fetchAll( PDO::FETCH_ASSOC);
-echo "<pre>";
-print_r($dados);
+############## CRUD  ######################
+//PARA EXIBIR - COMO NÃO VOU ENVIAR DADOS POSSO UTILIZAR A QUERY NORMAL SEM O BIND
+require 'config.php';
+require 'dao/UsuarioDAOMySQL.php';
+
+$usuarioDao = new UsuarioDaoMysql($pdo);
+$lista = $usuarioDao->findAll();
+/*$lista = [];
+$sql = $pdo->query("SELECT * FROM usuarios");
+if($sql->rowCount() > 0){
+    $lista = $sql->fetchAll(PDO::FETCH_ASSOC);
+}*/
+
+?>
+<a href="adicionar.php">Adicionar usuário</a>
+<table border="1" width="100%">
+<tr>
+    <th>ID</th>
+    <th>NOME</th>
+    <th>EMAIL</th>
+    <th>AÇÕES</th>
+</tr>
+    <?php foreach($lista as $usuario): ?>
+    
+
+        <td><?=$usuario->getId();?></td>
+        <td><?=$usuario->getNome();?></td>
+        <td><?=$usuario->getEmail();?></td>
+
+
+        <td>
+            <a href="editar.php?id=<?=$usuario->getId();?>">[ Editar ]</a>                
+            <a href="excluir.php?id=<?=$usuario->getId();?>" onclick="return confirm('Tem certeza que deseja excluir?')">[ Excluir ]</a>            
+        </td>
+    </tr>
+    <?php endforeach; ?>
+</table>
